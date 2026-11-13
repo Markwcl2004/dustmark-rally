@@ -1,0 +1,134 @@
+{
+ "style": "Vintage 1970s rally racing poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, graphic stylized shapes, matte paper texture, not photorealistic, no glossy plastic look. Strong atmospheric perspective where each distant layer fades into colored haze.",
+ "suffix": "Wide panoramic band of distant landscape painted as flat layered silhouette shapes in tones of a single color, the landscape occupies the lower half and runs off the left, right and bottom edges, above it a plain flat empty white sky with nothing in it, no sun, no clouds, no birds, no text, no border.",
+ "jobs": [
+  {
+   "name": "far_nordic_1a",
+   "seed": 8000,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Rolling hills covered with dense spruce and pine forest, a jagged tree line of many small pointed treetops along the ridges, two overlapping hill layers, in muted blue-grey green tones."
+  },
+  {
+   "name": "far_nordic_1b",
+   "seed": 8001,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Rolling hills covered with dense spruce and pine forest, a jagged tree line of many small pointed treetops along the ridges, two overlapping hill layers, in muted blue-grey green tones."
+  },
+  {
+   "name": "far_nordic_2a",
+   "seed": 8002,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Very distant long low smooth forested ridges with a faint soft tree line, very simple shapes, in pale hazy blue-grey tones."
+  },
+  {
+   "name": "far_nordic_2b",
+   "seed": 8003,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Very distant long low smooth forested ridges with a faint soft tree line, very simple shapes, in pale hazy blue-grey tones."
+  },
+  {
+   "name": "far_savanna_1a",
+   "seed": 8004,
+   "w": 2048,
+   "h": 512,
+   "prompt": "A flat savanna plain with scattered flat-topped umbrella acacia trees and a few low rocky outcrops along the horizon, in dusty terracotta and rose-brown tones."
+  },
+  {
+   "name": "far_savanna_1b",
+   "seed": 8005,
+   "w": 2048,
+   "h": 512,
+   "prompt": "A flat savanna plain with scattered flat-topped umbrella acacia trees and a few low rocky outcrops along the horizon, in dusty terracotta and rose-brown tones."
+  },
+  {
+   "name": "far_savanna_2a",
+   "seed": 8006,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Very distant flat-topped mesas and table mountains with steep sides, long and low, very simple shapes, in pale hazy rose and mauve tones."
+  },
+  {
+   "name": "far_savanna_2b",
+   "seed": 8007,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Very distant flat-topped mesas and table mountains with steep sides, long and low, very simple shapes, in pale hazy rose and mauve tones."
+  },
+  {
+   "name": "far_snow_1a",
+   "seed": 8008,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Snowy foothills covered with dense dark fir forest, a jagged tree line of small pointed snow-dusted treetops, in cold lavender-grey and navy tones."
+  },
+  {
+   "name": "far_snow_1b",
+   "seed": 8009,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Snowy foothills covered with dense dark fir forest, a jagged tree line of small pointed snow-dusted treetops, in cold lavender-grey and navy tones."
+  },
+  {
+   "name": "far_snow_2a",
+   "seed": 8010,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Very distant jagged snowy mountain peaks with simple flat shading on their faces, a long range, in pale hazy lavender-grey tones."
+  },
+  {
+   "name": "far_snow_2b",
+   "seed": 8011,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Very distant jagged snowy mountain peaks with simple flat shading on their faces, a long range, in pale hazy lavender-grey tones."
+  },
+  {
+   "name": "far_coast_1a",
+   "seed": 8012,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Coastal hills with tall narrow cypress trees, round olive trees and a few small cubic village houses along the ridge, in muted blue-green and grey tones."
+  },
+  {
+   "name": "far_coast_1b",
+   "seed": 8013,
+   "w": 2048,
+   "h": 512,
+   "prompt": "Coastal hills with tall narrow cypress trees, round olive trees and a few small cubic village houses along the ridge, in muted blue-green and grey tones."
+  },
+  {
+   "name": "far_coast_2a",
+   "seed": 8014,
+   "w": 2048,
+   "h": 512,
+   "prompt": "A calm flat sea filling the bottom quarter with a perfectly straight horizontal sea horizon, and a few distant rocky headlands and promontories rising from the sea, very simple shapes, in pale hazy blue tones."
+  },
+  {
+   "name": "far_coast_2b",
+   "seed": 8015,
+   "w": 2048,
+   "h": 512,
+   "prompt": "A calm flat sea filling the bottom quarter with a perfectly straight horizontal sea horizon, and a few distant rocky headlands and promontories rising from the sea, very simple shapes, in pale hazy blue tones."
+  },
+  {
+   "name": "far_snow_2c",
+   "seed": 8020,
+   "w": 2048,
+   "h": 512,
+   "raw_prompt": true,
+   "prompt": "Vintage 1970s rally racing poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, graphic stylized shapes, matte paper texture, not photorealistic, no glossy plastic look. Strong atmospheric perspective where each distant layer fades into colored haze. Very distant jagged snowy mountain peaks with white snow caps and simple flat shading on their faces, a long range, in pale hazy lavender-grey tones. Wide panoramic band of distant landscape painted as flat layered silhouette shapes, the landscape occupies the lower half and runs off the left, right and bottom edges, above it a plain flat empty pale peach-orange sky with nothing in it, no sun, no clouds, no birds, no text, no border."
+  },
+  {
+   "name": "far_snow_2d",
+   "seed": 8021,
+   "w": 2048,
+   "h": 512,
+   "raw_prompt": true,
+   "prompt": "Vintage 1970s rally racing poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, graphic stylized shapes, matte paper texture, not photorealistic, no glossy plastic look. Strong atmospheric perspective where each distant layer fades into colored haze. Very distant jagged snowy mountain peaks with white snow caps and simple flat shading on their faces, a long range, in pale hazy lavender-grey tones. Wide panoramic band of distant landscape painted as flat layered silhouette shapes, the landscape occupies the lower half and runs off the left, right and bottom edges, above it a plain flat empty pale peach-orange sky with nothing in it, no sun, no clouds, no birds, no text, no border."
+  }
+ ]
+}

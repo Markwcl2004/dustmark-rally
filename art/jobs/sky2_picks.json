@@ -1,0 +1,37 @@
+{
+ "_doc": "output -> raw candidate in art/raw/b2/sky (art/jobs/sky2.json). bottom/top = fraction of height kept (drops the ground strip the model paints along the bottom). flakes = procedural snowflakes added after wrapping. Run: python3 art/make_sky2.py",
+ "public/assets/sky/clear.jpg": {
+  "src": "sky2_clear_a",
+  "bottom": 0.97
+ },
+ "public/assets/sky/fog.jpg": {
+  "src": "sky2_fog_a",
+  "bottom": 0.88
+ },
+ "public/assets/sky/snowfall.jpg": {
+  "src": "sky2_snowfall_b",
+  "bottom": 0.86,
+  "flakes": 2600
+ },
+ "public/assets/sky/sandstorm.jpg": {
+  "src": "sky2_sandstorm_a",
+  "bottom": 0.9
+ },
+ "public/assets/sky/sunset.jpg": {
+  "src": "sky2_sunset_a",
+  "bottom": 0.95
+ },
+ "public/assets/sky/wet.jpg": {
+  "src": "sky2_wet_a",
+  "bottom": 0.97
+ },
+ "public/assets/sky/clouds_1.png": {
+  "src": "clouds_1b"
+ },
+ "public/assets/sky/clouds_2.png": {
+  "src": "clouds_2b"
+ },
+ "public/assets/sky/clouds_3.png": {
+  "src": "clouds_3a"
+ }
+}

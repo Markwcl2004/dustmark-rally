@@ -1,0 +1,189 @@
+{
+ "style": "Overhead close-up gouache painting looking straight down at the ground from directly above, like a top-down map, the entire canvas is densely covered edge to edge, flat even soft overcast daylight with no cast shadows, stylised illustration with simplified painted shapes and fine brush grain, muted natural colors.",
+ "suffix": "Nothing else, no frame, no text.",
+ "defaults": {
+  "w": 1024,
+  "h": 1024
+ },
+ "materials": {
+  "nordic_gravel_road": "Densely packed fine gravel road: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, no large stones.",
+  "nordic_gravel_shoulder": "Loose coarse road-side gravel: many scattered angular grey and beige stones of mixed small sizes over dusty brown soil, a few dry grass blades, uneven loose look, no large stones.",
+  "nordic_forest_floor": "Forest floor carpet: small cushions of green moss mixed with layers of fallen brown pine needles, a few small yellow birch leaves, tiny twigs, evenly spread small details, dense natural ground cover.",
+  "nordic_grass": "Short meadow grass seen from directly above: countless small star-shaped grass tufts radiating from their centres, muted olive, sage and straw yellow blades, a few tiny white flowers, evenly spread, no bare ground.",
+  "nordic_rock": "Rough weathered grey granite rock surface: coarse speckled grain, many small fine cracks and slightly fractured angular facets, a few small spots of pale green and ochre lichen, evenly spread, no tiles, no blocks, no large single crack.",
+  "nordic_dirt_bank": "Compacted brown earth bank: dry crumbly brown soil with many small embedded pebbles, thin pale roots and a few dry grass bits, evenly spread small details.",
+  "savanna_road": "Red laterite dirt road: compacted red-orange earth densely covered with fine red gravel, small rust and ochre pebbles and dust, evenly spread, no large stones.",
+  "savanna_ground": "Dry savanna ground seen from above: red-ochre dusty soil covered with many small star-shaped tufts of dry golden straw grass and tiny pebbles, evenly spread.",
+  "snow_road": "Packed snow road: compressed white snow surface with soft blue-lavender undulations, small chunks of hard snow, scattered fine ice crystals and a little grey grit, evenly spread small details, no tyre tracks.",
+  "snow_ground": "Fresh snow surface: soft white snow with small gentle lumps and pale blue-lavender hollows, a few tiny sparkles, very subtle evenly spread detail.",
+  "coast_road": "Old asphalt road surface: warm grey asphalt with dense fine aggregate of tiny light and dark stones, subtle worn patches and hairline cracks, evenly spread, no road markings.",
+  "coast_ground": "Dry Mediterranean ground on flat terrain: pale beige sandy soil densely scattered with small white limestone pebbles, tiny dry thyme and straw grass tufts as small star shapes, evenly spread over the whole canvas, flat ground with no slope."
+ },
+ "jobs": [
+  {
+   "name": "nordic_gravel_road_a",
+   "seed": 4000,
+   "prompt": "Densely packed fine gravel road: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, no large stones."
+  },
+  {
+   "name": "nordic_gravel_road_b",
+   "seed": 4007,
+   "prompt": "Densely packed fine gravel road: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, no large stones."
+  },
+  {
+   "name": "nordic_gravel_road_c",
+   "seed": 4014,
+   "prompt": "Densely packed fine gravel road: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, no large stones."
+  },
+  {
+   "name": "nordic_gravel_road_d",
+   "seed": 4021,
+   "prompt": "Densely packed fine gravel road: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, no large stones."
+  },
+  {
+   "name": "nordic_gravel_shoulder_a",
+   "seed": 4028,
+   "prompt": "Loose coarse road-side gravel: many scattered angular grey and beige stones of mixed small sizes over dusty brown soil, a few dry grass blades, uneven loose look, no large stones."
+  },
+  {
+   "name": "nordic_gravel_shoulder_b",
+   "seed": 4035,
+   "prompt": "Loose coarse road-side gravel: many scattered angular grey and beige stones of mixed small sizes over dusty brown soil, a few dry grass blades, uneven loose look, no large stones."
+  },
+  {
+   "name": "nordic_gravel_shoulder_c",
+   "seed": 4042,
+   "prompt": "Loose coarse road-side gravel: many scattered angular grey and beige stones of mixed small sizes over dusty brown soil, a few dry grass blades, uneven loose look, no large stones."
+  },
+  {
+   "name": "nordic_forest_floor_a",
+   "seed": 4049,
+   "prompt": "Forest floor carpet: small cushions of green moss mixed with layers of fallen brown pine needles, a few small yellow birch leaves, tiny twigs, evenly spread small details, dense natural ground cover."
+  },
+  {
+   "name": "nordic_forest_floor_b",
+   "seed": 4056,
+   "prompt": "Forest floor carpet: small cushions of green moss mixed with layers of fallen brown pine needles, a few small yellow birch leaves, tiny twigs, evenly spread small details, dense natural ground cover."
+  },
+  {
+   "name": "nordic_forest_floor_c",
+   "seed": 4063,
+   "prompt": "Forest floor carpet: small cushions of green moss mixed with layers of fallen brown pine needles, a few small yellow birch leaves, tiny twigs, evenly spread small details, dense natural ground cover."
+  },
+  {
+   "name": "nordic_grass_a",
+   "seed": 4070,
+   "prompt": "Short meadow grass seen from directly above: countless small star-shaped grass tufts radiating from their centres, muted olive, sage and straw yellow blades, a few tiny white flowers, evenly spread, no bare ground."
+  },
+  {
+   "name": "nordic_grass_b",
+   "seed": 4077,
+   "prompt": "Short meadow grass seen from directly above: countless small star-shaped grass tufts radiating from their centres, muted olive, sage and straw yellow blades, a few tiny white flowers, evenly spread, no bare ground."
+  },
+  {
+   "name": "nordic_grass_c",
+   "seed": 4084,
+   "prompt": "Short meadow grass seen from directly above: countless small star-shaped grass tufts radiating from their centres, muted olive, sage and straw yellow blades, a few tiny white flowers, evenly spread, no bare ground."
+  },
+  {
+   "name": "nordic_rock_a",
+   "seed": 4091,
+   "prompt": "Rough weathered grey granite rock surface: coarse speckled grain, many small fine cracks and slightly fractured angular facets, a few small spots of pale green and ochre lichen, evenly spread, no tiles, no blocks, no large single crack."
+  },
+  {
+   "name": "nordic_rock_b",
+   "seed": 4098,
+   "prompt": "Rough weathered grey granite rock surface: coarse speckled grain, many small fine cracks and slightly fractured angular facets, a few small spots of pale green and ochre lichen, evenly spread, no tiles, no blocks, no large single crack."
+  },
+  {
+   "name": "nordic_rock_c",
+   "seed": 4105,
+   "prompt": "Rough weathered grey granite rock surface: coarse speckled grain, many small fine cracks and slightly fractured angular facets, a few small spots of pale green and ochre lichen, evenly spread, no tiles, no blocks, no large single crack."
+  },
+  {
+   "name": "nordic_dirt_bank_a",
+   "seed": 4112,
+   "prompt": "Compacted brown earth bank: dry crumbly brown soil with many small embedded pebbles, thin pale roots and a few dry grass bits, evenly spread small details."
+  },
+  {
+   "name": "nordic_dirt_bank_b",
+   "seed": 4119,
+   "prompt": "Compacted brown earth bank: dry crumbly brown soil with many small embedded pebbles, thin pale roots and a few dry grass bits, evenly spread small details."
+  },
+  {
+   "name": "nordic_dirt_bank_c",
+   "seed": 4126,
+   "prompt": "Compacted brown earth bank: dry crumbly brown soil with many small embedded pebbles, thin pale roots and a few dry grass bits, evenly spread small details."
+  },
+  {
+   "name": "savanna_road_a",
+   "seed": 4133,
+   "prompt": "Red laterite dirt road: compacted red-orange earth densely covered with fine red gravel, small rust and ochre pebbles and dust, evenly spread, no large stones."
+  },
+  {
+   "name": "savanna_road_b",
+   "seed": 4140,
+   "prompt": "Red laterite dirt road: compacted red-orange earth densely covered with fine red gravel, small rust and ochre pebbles and dust, evenly spread, no large stones."
+  },
+  {
+   "name": "savanna_ground_a",
+   "seed": 4147,
+   "prompt": "Dry savanna ground seen from above: red-ochre dusty soil covered with many small star-shaped tufts of dry golden straw grass and tiny pebbles, evenly spread."
+  },
+  {
+   "name": "savanna_ground_b",
+   "seed": 4154,
+   "prompt": "Dry savanna ground seen from above: red-ochre dusty soil covered with many small star-shaped tufts of dry golden straw grass and tiny pebbles, evenly spread."
+  },
+  {
+   "name": "snow_road_a",
+   "seed": 4161,
+   "prompt": "Packed snow road: compressed white snow surface with soft blue-lavender undulations, small chunks of hard snow, scattered fine ice crystals and a little grey grit, evenly spread small details, no tyre tracks."
+  },
+  {
+   "name": "snow_road_b",
+   "seed": 4168,
+   "prompt": "Packed snow road: compressed white snow surface with soft blue-lavender undulations, small chunks of hard snow, scattered fine ice crystals and a little grey grit, evenly spread small details, no tyre tracks."
+  },
+  {
+   "name": "snow_ground_a",
+   "seed": 4175,
+   "prompt": "Fresh snow surface: soft white snow with small gentle lumps and pale blue-lavender hollows, a few tiny sparkles, very subtle evenly spread detail."
+  },
+  {
+   "name": "snow_ground_b",
+   "seed": 4182,
+   "prompt": "Fresh snow surface: soft white snow with small gentle lumps and pale blue-lavender hollows, a few tiny sparkles, very subtle evenly spread detail."
+  },
+  {
+   "name": "coast_road_a",
+   "seed": 4189,
+   "prompt": "Old asphalt road surface: warm grey asphalt with dense fine aggregate of tiny light and dark stones, subtle worn patches and hairline cracks, evenly spread, no road markings."
+  },
+  {
+   "name": "coast_road_b",
+   "seed": 4196,
+   "prompt": "Old asphalt road surface: warm grey asphalt with dense fine aggregate of tiny light and dark stones, subtle worn patches and hairline cracks, evenly spread, no road markings."
+  },
+  {
+   "name": "coast_ground_a",
+   "seed": 4203,
+   "prompt": "Dry Mediterranean hillside ground: pale sandy limestone soil with many small white and beige pebbles and small star-shaped tufts of dry olive-green and straw grass, evenly spread."
+  },
+  {
+   "name": "coast_ground_b",
+   "seed": 4210,
+   "prompt": "Dry Mediterranean hillside ground: pale sandy limestone soil with many small white and beige pebbles and small star-shaped tufts of dry olive-green and straw grass, evenly spread."
+  },
+  {
+   "name": "coast_ground_c",
+   "seed": 4600,
+   "prompt": "Dry Mediterranean ground on flat terrain: pale beige sandy soil densely scattered with small white limestone pebbles, tiny dry thyme and straw grass tufts as small star shapes, evenly spread over the whole canvas, flat ground with no slope."
+  },
+  {
+   "name": "coast_ground_d",
+   "seed": 4607,
+   "prompt": "Dry Mediterranean ground on flat terrain: pale beige sandy soil densely scattered with small white limestone pebbles, tiny dry thyme and straw grass tufts as small star shapes, evenly spread over the whole canvas, flat ground with no slope."
+  }
+ ]
+}

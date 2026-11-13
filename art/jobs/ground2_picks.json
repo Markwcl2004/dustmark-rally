@@ -1,0 +1,128 @@
+{
+ "_doc": "Batch 2 ground picks, same format as ground_picks.json (run: python3 art/make_ground.py art/jobs/ground2_picks.json). method psd = source is an img2img of an exactly periodic procedural base (art/procbase2.py) or that base itself: no variant, seamless.periodic_part instead of quilting (keeps roof rows / bark furrows intact). The four nordic files replace batch 1 versions.",
+ "jobs": [
+  "art/jobs/ground2.json",
+  "art/jobs/surface2.json",
+  "art/jobs/ground2_img2img.json"
+ ],
+ "raw": [
+  "art/raw/b2/ground",
+  "art/raw/procbase"
+ ],
+ "picks": {
+  "public/assets/tex/savanna/shoulder.jpg": {
+   "src": "savanna_shoulder_p2",
+   "mean": 0.34,
+   "flat_sigma": 0.06,
+   "rel_std": 0.2,
+   "prompt": "Loose red earth gravel: compacted rust-red dusty soil with many small angular red-brown and ochre stone chips of similar size, fine red dust, evenly spread, no large stones."
+  },
+  "public/assets/tex/savanna/dry_grass.jpg": {
+   "src": "savanna_dry_grass_p2",
+   "mean": 0.5,
+   "rel_std": 0.25
+  },
+  "public/assets/tex/savanna/rock.jpg": {
+   "src": "savanna_rock_p1",
+   "mean": 0.36,
+   "rel_std": 0.25,
+   "flat_sigma": 0.08
+  },
+  "public/assets/tex/savanna/riverbed.jpg": {
+   "src": "savanna_riverbed_p3",
+   "mean": 0.45,
+   "rel_std": 0.22,
+   "flat_sigma": 0.08
+  },
+  "public/assets/tex/snow/ice.jpg": {
+   "src": "snow_ice_c",
+   "mean": 0.62,
+   "rel_std": 0.1,
+   "flat_sigma": 0.06,
+   "prompt": "Frozen ice surface: smooth pale blue and grey-blue ice in flat painted color areas, faint white frost streaks, small white highlight glints, tiny air bubbles, evenly spread small details."
+  },
+  "public/assets/tex/snow/snow_bank.jpg": {
+   "src": "snow_snow_bank_a",
+   "mean": 0.8,
+   "rel_std": 0.1,
+   "sat": 0.7
+  },
+  "public/assets/tex/snow/rock_snow.jpg": {
+   "src": "snow_rock_snow_p1",
+   "mean": 0.3,
+   "rel_std": 0.4,
+   "flat_sigma": 0.08
+  },
+  "public/assets/tex/coast/road_worn.jpg": {
+   "src": "coast_road_worn_p3",
+   "mean": 0.42,
+   "flat_sigma": 0.03,
+   "sat": 0.5,
+   "rel_std": 0.2,
+   "prompt": "Old worn asphalt surface: warm grey asphalt with dense fine aggregate of tiny light and dark stones, small darker tar repair patches, thin sealed crack lines, evenly spread, no markings."
+  },
+  "public/assets/tex/coast/shoulder.jpg": {
+   "src": "coast_shoulder_p1",
+   "mean": 0.58,
+   "rel_std": 0.18,
+   "flat_sigma": 0.06
+  },
+  "public/assets/tex/coast/cliff_rock.jpg": {
+   "src": "coast_cliff_rock_p1",
+   "mean": 0.62,
+   "rel_std": 0.2,
+   "flat_sigma": 0.08
+  },
+  "public/assets/tex/coast/stone_wall.jpg": {
+   "src": "coast_stone_wall_p1",
+   "method": "psd",
+   "mean": 0.5,
+   "rel_std": 0.35,
+   "flat_sigma": 0.1
+  },
+  "public/assets/tex/coast/terracotta_roof.jpg": {
+   "src": "coast_roof_p1",
+   "method": "psd",
+   "mean": 0.42,
+   "rel_std": 0.3
+  },
+  "public/assets/tex/coast/plaster_wall.jpg": {
+   "src": "plaster_white",
+   "method": "psd",
+   "mean": 0.82,
+   "rel_std": 0.05,
+   "flat_sigma": 0.3
+  },
+  "public/assets/tex/coast/plaster_wall_ochre.jpg": {
+   "src": "plaster_ochre",
+   "method": "psd",
+   "mean": 0.6,
+   "rel_std": 0.07,
+   "flat_sigma": 0.3
+  },
+  "public/assets/tex/nordic/rock.jpg": {
+   "src": "nordic_rock_p1",
+   "mean": 0.5,
+   "rel_std": 0.22,
+   "flat_sigma": 0.08
+  },
+  "public/assets/tex/nordic/gravel_shoulder.jpg": {
+   "src": "nordic_gravel_shoulder_p7",
+   "mean": 0.48,
+   "rel_std": 0.2,
+   "flat_sigma": 0.06
+  },
+  "public/assets/tex/nordic/grass.jpg": {
+   "src": "nordic_grass_p1",
+   "mean": 0.5,
+   "rel_std": 0.25
+  },
+  "public/assets/tex/nordic/pine_bark.jpg": {
+   "src": "nordic_pine_bark_q1",
+   "method": "psd",
+   "mean": 0.3,
+   "rel_std": 0.3,
+   "sat": 0.85
+  }
+ }
+}

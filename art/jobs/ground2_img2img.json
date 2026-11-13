@@ -1,0 +1,270 @@
+{
+ "style": "Overhead close-up gouache painting the entire canvas is densely covered edge to edge, flat even soft overcast daylight with no cast shadows, stylised illustration with simplified painted shapes and fine brush grain, muted natural colors.",
+ "suffix": "Nothing else, no frame, no text.",
+ "jobs": [
+  {
+   "name": "coast_road_worn_p1",
+   "image": "public/assets/tex/coast/road.jpg",
+   "denoise": 0.55,
+   "seed": 6401,
+   "prompt": "Old worn asphalt surface: warm grey asphalt with dense fine aggregate of tiny light and dark stones, several small darker rectangular tar repair patches, thin black sealed crack lines, faded paler worn areas, evenly spread, no road markings.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "coast_road_worn_p2",
+   "image": "art/raw/procbase/road_worn.png",
+   "denoise": 0.5,
+   "seed": 6402,
+   "prompt": "Old worn asphalt surface: warm grey asphalt with dense fine aggregate of tiny light and dark stones, small darker tar repair patches, thin black sealed crack lines, faded paler worn areas, evenly spread, no road markings.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "coast_roof_p1",
+   "image": "art/raw/procbase/terracotta_roof.png",
+   "denoise": 0.42,
+   "seed": 6411,
+   "prompt": "Terracotta roof seen straight on: neat rows of overlapping curved orange-red clay barrel tiles in straight columns, some tiles paler, some darker brown and weathered, flat poster colors.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "coast_roof_p2",
+   "image": "art/raw/procbase/terracotta_roof.png",
+   "denoise": 0.5,
+   "seed": 6412,
+   "prompt": "Terracotta roof seen straight on: neat rows of overlapping curved orange-red clay barrel tiles in straight columns, some tiles paler, some darker brown and weathered, flat poster colors.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_pine_bark_p1",
+   "image": "art/raw/procbase/pine_bark.png",
+   "denoise": 0.5,
+   "seed": 6421,
+   "prompt": "Close-up of pine tree bark filling the canvas: thick reddish-brown and grey-brown bark plates separated by dark vertical furrows, evenly spread, flat painted shapes.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_pine_bark_p2",
+   "image": "art/raw/procbase/pine_bark.png",
+   "denoise": 0.58,
+   "seed": 6422,
+   "prompt": "Close-up of pine tree bark filling the canvas: thick reddish-brown and grey-brown bark plates separated by dark vertical furrows, evenly spread, flat painted shapes.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_gravel_shoulder_p5",
+   "image": "art/raw/procbase/shoulder_fine.png",
+   "denoise": 0.5,
+   "seed": 6431,
+   "prompt": "Loose coarse gravel surface: many scattered small angular grey and beige stones of similar size over dusty brown soil, a few dry grass blades, evenly spread, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_gravel_shoulder_p6",
+   "image": "art/raw/procbase/shoulder_fine.png",
+   "denoise": 0.58,
+   "seed": 6432,
+   "prompt": "Loose coarse gravel surface: many scattered small angular grey and beige stones of similar size over dusty brown soil, a few dry grass blades, evenly spread, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "savanna_shoulder_p1",
+   "image": "art/raw/procbase/savanna_shoulder.png",
+   "denoise": 0.55,
+   "seed": 6441,
+   "prompt": "Loose red earth gravel: compacted rust-red dusty soil with many small angular red-brown and ochre stone chips of similar size, fine red dust, evenly spread, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "coast_stone_wall_p1",
+   "image": "art/raw/procbase/stone_wall.png",
+   "denoise": 0.55,
+   "seed": 6451,
+   "prompt": "Close-up of a dry stone wall filling the canvas: irregular rounded and flat cream, beige, ochre and pale grey stones stacked in rough horizontal courses with dark gaps, no mortar, flat painted shapes.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "savanna_riverbed_p1",
+   "image": "art/raw/procbase/riverbed.png",
+   "denoise": 0.55,
+   "seed": 6500,
+   "prompt": "Dry riverbed: many small rounded river pebbles in ochre, grey-brown, cream and rust red packed into pale dried mud, a few darker damp mud patches, fine sand, all pebbles small, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "savanna_riverbed_p2",
+   "image": "art/raw/procbase/riverbed.png",
+   "denoise": 0.62,
+   "seed": 6501,
+   "prompt": "Dry riverbed: many small rounded river pebbles in ochre, grey-brown, cream and rust red packed into pale dried mud, a few darker damp mud patches, fine sand, all pebbles small, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "savanna_rock_p1",
+   "image": "art/raw/procbase/rock_savanna.png",
+   "denoise": 0.55,
+   "seed": 6502,
+   "prompt": "Weathered red-brown sandstone rock surface: angular facets in flat tones of rust, terracotta and ochre, thin dark hairline cracks, tiny pale speckles, flat painted shapes, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "savanna_rock_p2",
+   "image": "art/raw/procbase/rock_savanna.png",
+   "denoise": 0.65,
+   "seed": 6503,
+   "prompt": "Weathered red-brown sandstone rock surface: angular facets in flat tones of rust, terracotta and ochre, thin dark hairline cracks, tiny pale speckles, flat painted shapes, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_rock_p1",
+   "image": "art/raw/procbase/rock_nordic.png",
+   "denoise": 0.55,
+   "seed": 6504,
+   "prompt": "Grey granite rock surface: angular facets in flat tones of blue-grey, warm grey and slate, thin dark hairline cracks, tiny pale lichen dots, flat painted shapes, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_rock_p2",
+   "image": "art/raw/procbase/rock_nordic.png",
+   "denoise": 0.65,
+   "seed": 6505,
+   "prompt": "Grey granite rock surface: angular facets in flat tones of blue-grey, warm grey and slate, thin dark hairline cracks, tiny pale lichen dots, flat painted shapes, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "snow_rock_snow_p1",
+   "image": "art/raw/procbase/rock_snow.png",
+   "denoise": 0.55,
+   "seed": 6506,
+   "prompt": "Dark slate rock with snow: angular facets in flat tones of dark slate and navy grey, white snow and frost caught in the cracks, flat painted shapes, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "snow_rock_snow_p2",
+   "image": "art/raw/procbase/rock_snow.png",
+   "denoise": 0.65,
+   "seed": 6507,
+   "prompt": "Dark slate rock with snow: angular facets in flat tones of dark slate and navy grey, white snow and frost caught in the cracks, flat painted shapes, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "coast_cliff_rock_p1",
+   "image": "art/raw/procbase/cliff_coast.png",
+   "denoise": 0.55,
+   "seed": 6508,
+   "prompt": "Pale limestone rock face: angular facets and small ledges in flat tones of cream, warm beige and pale ochre, fine dark hairline cracks, small pits, flat painted shapes, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "coast_cliff_rock_p2",
+   "image": "art/raw/procbase/cliff_coast.png",
+   "denoise": 0.65,
+   "seed": 6509,
+   "prompt": "Pale limestone rock face: angular facets and small ledges in flat tones of cream, warm beige and pale ochre, fine dark hairline cracks, small pits, flat painted shapes, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_grass_p1",
+   "image": "art/raw/procbase/grass_nordic.png",
+   "denoise": 0.5,
+   "seed": 6510,
+   "prompt": "Meadow grass mat: dense thin short grass blades lying in many directions, fine short brush strokes in muted olive, sage green and straw yellow, a few tiny white and yellow flower dots, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_grass_p2",
+   "image": "art/raw/procbase/grass_nordic.png",
+   "denoise": 0.6,
+   "seed": 6511,
+   "prompt": "Meadow grass mat: dense thin short grass blades lying in many directions, fine short brush strokes in muted olive, sage green and straw yellow, a few tiny white and yellow flower dots, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "savanna_dry_grass_p1",
+   "image": "art/raw/procbase/grass_savanna.png",
+   "denoise": 0.5,
+   "seed": 6512,
+   "prompt": "Dry savanna grass mat: dense thin golden straw and pale ochre grass blades lying in many directions, fine short brush strokes, a little red soil between, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "savanna_dry_grass_p2",
+   "image": "art/raw/procbase/grass_savanna.png",
+   "denoise": 0.6,
+   "seed": 6513,
+   "prompt": "Dry savanna grass mat: dense thin golden straw and pale ochre grass blades lying in many directions, fine short brush strokes, a little red soil between, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "coast_shoulder_p1",
+   "image": "art/raw/procbase/coast_shoulder.png",
+   "denoise": 0.42,
+   "seed": 6600,
+   "prompt": "Loose roadside gravel: many small angular pale limestone chips and grey and beige pebbles of similar small size over pale dusty soil, a few thin dry grass blades, evenly spread, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "coast_shoulder_p2",
+   "image": "art/raw/procbase/coast_shoulder.png",
+   "denoise": 0.5,
+   "seed": 6601,
+   "prompt": "Loose roadside gravel: many small angular pale limestone chips and grey and beige pebbles of similar small size over pale dusty soil, a few thin dry grass blades, evenly spread, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_pine_bark_q1",
+   "image": "art/raw/procbase/pine_bark2.png",
+   "denoise": 0.4,
+   "seed": 6700,
+   "prompt": "Close-up of pine tree bark filling the canvas: irregular thick reddish-brown and grey-brown bark plates separated by deep dark furrows, flat painted shapes with fine brush grain, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_pine_bark_q2",
+   "image": "art/raw/procbase/pine_bark2.png",
+   "denoise": 0.5,
+   "seed": 6701,
+   "prompt": "Close-up of pine tree bark filling the canvas: irregular thick reddish-brown and grey-brown bark plates separated by deep dark furrows, flat painted shapes with fine brush grain, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "savanna_riverbed_p3",
+   "image": "art/raw/procbase/riverbed.png",
+   "denoise": 0.35,
+   "seed": 6801,
+   "prompt": "Dry riverbed: many small rounded river pebbles in ochre, grey-brown, cream and rust red packed into pale dried mud, a few darker damp mud patches, fine sand, all pebbles small, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "savanna_riverbed_p4",
+   "image": "art/raw/procbase/riverbed.png",
+   "denoise": 0.42,
+   "seed": 6802,
+   "prompt": "Dry riverbed: many small rounded river pebbles in ochre, grey-brown, cream and rust red packed into pale dried mud, a few darker damp mud patches, fine sand, all pebbles small, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "savanna_shoulder_p2",
+   "image": "art/raw/procbase/savanna_shoulder.png",
+   "denoise": 0.4,
+   "seed": 6803,
+   "prompt": "Loose red earth gravel: compacted rust-red dusty soil with many small angular red-brown and ochre stone chips of similar size, fine red dust, evenly spread, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_gravel_shoulder_p7",
+   "image": "art/raw/procbase/shoulder_fine.png",
+   "denoise": 0.42,
+   "seed": 6804,
+   "prompt": "Loose coarse gravel surface: many scattered small angular grey and beige stones of similar size over dusty brown soil, a few dry grass blades, evenly spread, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "coast_road_worn_p3",
+   "image": "art/raw/procbase/road_worn.png",
+   "denoise": 0.4,
+   "seed": 6805,
+   "prompt": "Old worn asphalt surface: warm grey asphalt with dense fine aggregate of tiny light and dark stones, small darker tar repair patches, thin black sealed crack lines, faded paler worn areas, evenly spread, no road markings.",
+   "mask": "art/raw/procbase/full_mask.png"
+  }
+ ]
+}

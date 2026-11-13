@@ -1,0 +1,187 @@
+{
+ "_doc": "Batch 2 crowd/staff/props: output -> raw candidate (art/jobs/crowd2.json). Run: python3 art/post2.py cut art/jobs/crowd2_picks.json",
+ "public/assets/crowd/coast_5.png": {
+  "src": "crowd2_coast_5a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/coast_6.png": {
+  "src": "crowd2_coast_6b",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/coast_7.png": {
+  "src": "crowd2_coast_7a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/coast_8.png": {
+  "src": "crowd2_coast_8a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/nordic_5.png": {
+  "src": "crowd2_nordic_5b",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/nordic_6.png": {
+  "src": "crowd2_nordic_6a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/nordic_7.png": {
+  "src": "crowd2_nordic_7b",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/nordic_8.png": {
+  "src": "crowd2_nordic_8b",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/savanna_5.png": {
+  "src": "crowd2_savanna_5b",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/savanna_6.png": {
+  "src": "crowd2_savanna_6b",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/savanna_7.png": {
+  "src": "crowd2_savanna_7b",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/savanna_8.png": {
+  "src": "crowd2_savanna_8a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/snow_5.png": {
+  "src": "crowd2_snow_5b",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/snow_6.png": {
+  "src": "crowd2_snow_6a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/snow_7.png": {
+  "src": "crowd2_snow_7b",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/snow_8.png": {
+  "src": "crowd2_snow_8a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/marshal_1.png": {
+  "src": "staff_marshal_1a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/marshal_2.png": {
+  "src": "staff_marshal_2a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/marshal_3.png": {
+  "src": "staff_marshal_3a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/photographer_1.png": {
+  "src": "staff_photographer_1a",
+  "raw": "art/raw/b2/crowd",
+  "height": 400,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/photographer_2.png": {
+  "src": "staff_photographer_2a",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/service_van.png": {
+  "src": "prop_service_vana",
+  "raw": "art/raw/b2/crowd",
+  "height": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/crowd/tent.png": {
+  "src": "prop_tenta",
+  "raw": "art/raw/b2/crowd",
+  "height": 640,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ }
+}

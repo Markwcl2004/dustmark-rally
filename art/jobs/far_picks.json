@@ -1,0 +1,40 @@
+{
+ "_doc": "layer -> raw candidate in art/raw/b2/far (art/jobs/far.json). lo = darkest value of the neutral layer (1 = near layer, more range; 2 = far, flatter). t0/t1 = colour-distance ramp from the sky colour for alpha. Run: python3 art/make_far.py mirror = append a flipped copy (4096x512) instead of the cut wrap.",
+ "nordic_1": {
+  "src": "far_nordic_1a",
+  "lo": 0.45,
+  "mirror": true
+ },
+ "nordic_2": {
+  "src": "far_nordic_2b",
+  "lo": 0.7,
+  "mirror": true
+ },
+ "savanna_1": {
+  "src": "far_savanna_1a",
+  "lo": 0.45
+ },
+ "savanna_2": {
+  "src": "far_savanna_2a",
+  "lo": 0.7
+ },
+ "snow_1": {
+  "src": "far_snow_1a",
+  "lo": 0.45,
+  "mirror": true
+ },
+ "snow_2": {
+  "src": "far_snow_2c",
+  "lo": 0.7,
+  "mirror": true
+ },
+ "coast_1": {
+  "src": "far_coast_1b",
+  "lo": 0.45,
+  "mirror": true
+ },
+ "coast_2": {
+  "src": "far_coast_2b",
+  "lo": 0.65
+ }
+}

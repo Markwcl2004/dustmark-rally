@@ -1,0 +1,390 @@
+{
+ "style": "Vintage 1970s rally racing poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, graphic stylized shapes, matte paper texture, not photorealistic, no glossy plastic look.",
+ "suffix": "",
+ "jobs": [
+  {
+   "name": "crowd2_nordic_5a",
+   "seed": 7500,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators jumping in the air and cheering with both arms up, wearing knitted wool hats, padded jackets in red, mustard and navy, jeans and boots, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_nordic_5b",
+   "seed": 7501,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators jumping in the air and cheering with both arms up, wearing knitted wool hats, padded jackets in red, mustard and navy, jeans and boots, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_nordic_6a",
+   "seed": 7502,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators sitting on folding camping chairs side by side, one holding a thermos cup, one clapping, one leaning forward, wearing knitted wool hats, padded jackets in red, mustard and navy, jeans and boots, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_nordic_6b",
+   "seed": 7503,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators sitting on folding camping chairs side by side, one holding a thermos cup, one clapping, one leaning forward, wearing knitted wool hats, padded jackets in red, mustard and navy, jeans and boots, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_nordic_7a",
+   "seed": 7504,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of four rally spectators: one holding a large plain flag with no text high above the head with both hands, the others clapping and shouting, wearing knitted wool hats, padded jackets in red, mustard and navy, jeans and boots, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_nordic_7b",
+   "seed": 7505,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of four rally spectators: one holding a large plain flag with no text high above the head with both hands, the others clapping and shouting, wearing knitted wool hats, padded jackets in red, mustard and navy, jeans and boots, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_nordic_8a",
+   "seed": 7506,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators: two standing wrapped together in a plaid wool blanket, one taking a photo with a camera with a long lens, wearing knitted wool hats, padded jackets in red, mustard and navy, jeans and boots, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_nordic_8b",
+   "seed": 7507,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators: two standing wrapped together in a plaid wool blanket, one taking a photo with a camera with a long lens, wearing knitted wool hats, padded jackets in red, mustard and navy, jeans and boots, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_savanna_5a",
+   "seed": 7508,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators jumping in the air and cheering with both arms up, wearing light cotton shirts, wide-brimmed sun hats and khaki shorts or long skirts in ochre, white and turquoise, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_savanna_5b",
+   "seed": 7509,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators jumping in the air and cheering with both arms up, wearing light cotton shirts, wide-brimmed sun hats and khaki shorts or long skirts in ochre, white and turquoise, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_savanna_6a",
+   "seed": 7510,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators sitting on folding chairs under a plain striped sun umbrella on a pole, one fanning herself with a hat, wearing light cotton shirts, wide-brimmed sun hats and khaki shorts or long skirts in ochre, white and turquoise, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_savanna_6b",
+   "seed": 7511,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators sitting on folding chairs under a plain striped sun umbrella on a pole, one fanning herself with a hat, wearing light cotton shirts, wide-brimmed sun hats and khaki shorts or long skirts in ochre, white and turquoise, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_savanna_7a",
+   "seed": 7512,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of four rally spectators: one waving a large plain flag with no text on a long pole, the others clapping and shouting, wearing light cotton shirts, wide-brimmed sun hats and khaki shorts or long skirts in ochre, white and turquoise, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_savanna_7b",
+   "seed": 7513,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of four rally spectators: one waving a large plain flag with no text on a long pole, the others clapping and shouting, wearing light cotton shirts, wide-brimmed sun hats and khaki shorts or long skirts in ochre, white and turquoise, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_savanna_8a",
+   "seed": 7514,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators: one taking a photo with a camera, one pointing, one shading the eyes with a hand, wearing light cotton shirts, wide-brimmed sun hats and khaki shorts or long skirts in ochre, white and turquoise, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_savanna_8b",
+   "seed": 7515,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators: one taking a photo with a camera, one pointing, one shading the eyes with a hand, wearing light cotton shirts, wide-brimmed sun hats and khaki shorts or long skirts in ochre, white and turquoise, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_snow_5a",
+   "seed": 7516,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators jumping in the air and cheering with both arms up, wearing thick winter parkas, fur-trimmed hoods, bobble hats, scarves and snow boots in red, blue and white, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_snow_5b",
+   "seed": 7517,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators jumping in the air and cheering with both arms up, wearing thick winter parkas, fur-trimmed hoods, bobble hats, scarves and snow boots in red, blue and white, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_snow_6a",
+   "seed": 7518,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators sitting on folding chairs wrapped in thick wool blankets, holding steaming mugs, wearing thick winter parkas, fur-trimmed hoods, bobble hats, scarves and snow boots in red, blue and white, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_snow_6b",
+   "seed": 7519,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators sitting on folding chairs wrapped in thick wool blankets, holding steaming mugs, wearing thick winter parkas, fur-trimmed hoods, bobble hats, scarves and snow boots in red, blue and white, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_snow_7a",
+   "seed": 7520,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of four rally spectators: one holding a large plain flag with no text high above the head with both hands, the others clapping, wearing thick winter parkas, fur-trimmed hoods, bobble hats, scarves and snow boots in red, blue and white, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_snow_7b",
+   "seed": 7521,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of four rally spectators: one holding a large plain flag with no text high above the head with both hands, the others clapping, wearing thick winter parkas, fur-trimmed hoods, bobble hats, scarves and snow boots in red, blue and white, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_snow_8a",
+   "seed": 7522,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators: two taking photos with cameras, one hugging herself against the cold with a blanket over the shoulders, wearing thick winter parkas, fur-trimmed hoods, bobble hats, scarves and snow boots in red, blue and white, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_snow_8b",
+   "seed": 7523,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators: two taking photos with cameras, one hugging herself against the cold with a blanket over the shoulders, wearing thick winter parkas, fur-trimmed hoods, bobble hats, scarves and snow boots in red, blue and white, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_coast_5a",
+   "seed": 7524,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators jumping in the air and cheering with both arms up, wearing summer clothes, striped shirts, sunglasses, straw hats and linen trousers in white, terracotta and blue, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_coast_5b",
+   "seed": 7525,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators jumping in the air and cheering with both arms up, wearing summer clothes, striped shirts, sunglasses, straw hats and linen trousers in white, terracotta and blue, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_coast_6a",
+   "seed": 7526,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators sitting on folding chairs under a plain striped beach umbrella on a pole, one holding a cold drink, wearing summer clothes, striped shirts, sunglasses, straw hats and linen trousers in white, terracotta and blue, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_coast_6b",
+   "seed": 7527,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators sitting on folding chairs under a plain striped beach umbrella on a pole, one holding a cold drink, wearing summer clothes, striped shirts, sunglasses, straw hats and linen trousers in white, terracotta and blue, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_coast_7a",
+   "seed": 7528,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of four rally spectators: one waving a large plain flag with no text on a long pole, the others clapping and shouting, wearing summer clothes, striped shirts, sunglasses, straw hats and linen trousers in white, terracotta and blue, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_coast_7b",
+   "seed": 7529,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of four rally spectators: one waving a large plain flag with no text on a long pole, the others clapping and shouting, wearing summer clothes, striped shirts, sunglasses, straw hats and linen trousers in white, terracotta and blue, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_coast_8a",
+   "seed": 7530,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators: one taking a photo with a camera, one looking through binoculars, one pointing, wearing summer clothes, striped shirts, sunglasses, straw hats and linen trousers in white, terracotta and blue, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "crowd2_coast_8b",
+   "seed": 7531,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A group of three rally spectators: one taking a photo with a camera, one looking through binoculars, one pointing, wearing summer clothes, striped shirts, sunglasses, straw hats and linen trousers in white, terracotta and blue, side-on three-quarter view. Full body figures from head to feet, standing on the same level, feet at the bottom of the frame, simplified faces with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "staff_marshal_1a",
+   "seed": 7532,
+   "cut": true,
+   "w": 896,
+   "h": 1152,
+   "prompt": "A single rally marshal standing upright holding a plain yellow flag raised high in one hand, wearing a bright orange high-visibility vest without any text over a dark navy jacket and trousers, a white cap, boots, side-on three-quarter view. Full body figure from head to feet, feet at the bottom of the frame, simplified face with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "staff_marshal_1b",
+   "seed": 7533,
+   "cut": true,
+   "w": 896,
+   "h": 1152,
+   "prompt": "A single rally marshal standing upright holding a plain yellow flag raised high in one hand, wearing a bright orange high-visibility vest without any text over a dark navy jacket and trousers, a white cap, boots, side-on three-quarter view. Full body figure from head to feet, feet at the bottom of the frame, simplified face with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "staff_marshal_2a",
+   "seed": 7534,
+   "cut": true,
+   "w": 896,
+   "h": 1152,
+   "prompt": "A single rally marshal standing still with a hand-held radio held to the side of the head, the other hand on the hip, wearing a bright orange high-visibility vest without any text over a grey jacket and dark trousers, side-on three-quarter view. Full body figure from head to feet, feet at the bottom of the frame, simplified face with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "staff_marshal_2b",
+   "seed": 7535,
+   "cut": true,
+   "w": 896,
+   "h": 1152,
+   "prompt": "A single rally marshal standing still with a hand-held radio held to the side of the head, the other hand on the hip, wearing a bright orange high-visibility vest without any text over a grey jacket and dark trousers, side-on three-quarter view. Full body figure from head to feet, feet at the bottom of the frame, simplified face with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "staff_marshal_3a",
+   "seed": 7536,
+   "cut": true,
+   "w": 896,
+   "h": 1152,
+   "prompt": "A single rally marshal waving a plain red flag sideways with an outstretched arm, wearing a bright orange high-visibility vest without any text over a dark green jacket and dark trousers, a knitted hat, side-on three-quarter view. Full body figure from head to feet, feet at the bottom of the frame, simplified face with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "staff_marshal_3b",
+   "seed": 7537,
+   "cut": true,
+   "w": 896,
+   "h": 1152,
+   "prompt": "A single rally marshal waving a plain red flag sideways with an outstretched arm, wearing a bright orange high-visibility vest without any text over a dark green jacket and dark trousers, a knitted hat, side-on three-quarter view. Full body figure from head to feet, feet at the bottom of the frame, simplified face with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "staff_photographer_1a",
+   "seed": 7538,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single motorsport photographer kneeling on one knee and aiming a camera with a very long telephoto lens, wearing a khaki photographer's vest with many pockets, a cap, cargo trousers and boots, a camera bag on the hip, side-on view. Full body figure from head to feet, feet at the bottom of the frame, simplified face with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "staff_photographer_1b",
+   "seed": 7539,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single motorsport photographer kneeling on one knee and aiming a camera with a very long telephoto lens, wearing a khaki photographer's vest with many pockets, a cap, cargo trousers and boots, a camera bag on the hip, side-on view. Full body figure from head to feet, feet at the bottom of the frame, simplified face with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "staff_photographer_2a",
+   "seed": 7540,
+   "cut": true,
+   "w": 896,
+   "h": 1152,
+   "prompt": "A single motorsport photographer standing and holding a camera with a long lens up to the eye, a second camera hanging on a strap, wearing a dark blue jacket, beanie and jeans, a shoulder bag, side-on view. Full body figure from head to feet, feet at the bottom of the frame, simplified face with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "staff_photographer_2b",
+   "seed": 7541,
+   "cut": true,
+   "w": 896,
+   "h": 1152,
+   "prompt": "A single motorsport photographer standing and holding a camera with a long lens up to the eye, a second camera hanging on a strap, wearing a dark blue jacket, beanie and jeans, a shoulder bag, side-on view. Full body figure from head to feet, feet at the bottom of the frame, simplified face with no facial details, fictional clothing with no logos and no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "prop_service_vana",
+   "seed": 7542,
+   "cut": true,
+   "w": 1344,
+   "h": 768,
+   "prompt": "A fictional generic unbranded 1980s boxy rally service van seen exactly from the side as a flat side elevation with no perspective, plain white body with two plain orange and blue stripes along the side, a roof rack loaded with spare wheels, side windows, black wheels touching the bottom of the frame, no logos, no badges, no text, no letters, no numbers. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "prop_service_vanb",
+   "seed": 7543,
+   "cut": true,
+   "w": 1344,
+   "h": 768,
+   "prompt": "A fictional generic unbranded 1980s boxy rally service van seen exactly from the side as a flat side elevation with no perspective, plain white body with two plain orange and blue stripes along the side, a roof rack loaded with spare wheels, side windows, black wheels touching the bottom of the frame, no logos, no badges, no text, no letters, no numbers. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "prop_service_vanc",
+   "seed": 7544,
+   "cut": true,
+   "w": 1344,
+   "h": 768,
+   "prompt": "A fictional generic unbranded 1980s boxy rally service van seen exactly from the side as a flat side elevation with no perspective, plain white body with two plain orange and blue stripes along the side, a roof rack loaded with spare wheels, side windows, black wheels touching the bottom of the frame, no logos, no badges, no text, no letters, no numbers. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "prop_tenta",
+   "seed": 7545,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A rally service tent: a square pop-up canopy gazebo with a plain red and white striped roof with a scalloped valance, four thin metal legs, open sides, a folding table with toolboxes underneath, seen from the front, legs touching the bottom of the frame, no logos, no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "prop_tentb",
+   "seed": 7546,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A rally service tent: a square pop-up canopy gazebo with a plain red and white striped roof with a scalloped valance, four thin metal legs, open sides, a folding table with toolboxes underneath, seen from the front, legs touching the bottom of the frame, no logos, no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "prop_tentc",
+   "seed": 7547,
+   "cut": true,
+   "w": 1152,
+   "h": 896,
+   "prompt": "A rally service tent: a square pop-up canopy gazebo with a plain red and white striped roof with a scalloped valance, four thin metal legs, open sides, a folding table with toolboxes underneath, seen from the front, legs touching the bottom of the frame, no logos, no text. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  }
+ ]
+}

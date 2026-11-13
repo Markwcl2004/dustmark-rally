@@ -1,0 +1,93 @@
+{
+ "jobs": [
+  "art/jobs/ground.json",
+  "art/jobs/ground_img2img.json",
+  "art/jobs/veg_nordic.json"
+ ],
+ "raw": [
+  "art/raw/ground",
+  "art/raw/veg"
+ ],
+ "picks": {
+  "public/assets/tex/nordic/gravel_road_1.jpg": {
+   "src": "nordic_gravel_road_p4",
+   "prompt": "Densely packed fine gravel surface: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, evenly spread, no large stones.",
+   "mean": 0.58
+  },
+  "public/assets/tex/nordic/gravel_road_2.jpg": {
+   "src": "nordic_gravel_road_p1",
+   "prompt": "Densely packed fine gravel surface: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, evenly spread, no large stones.",
+   "mean": 0.58
+  },
+  "public/assets/tex/nordic/gravel_shoulder.jpg": {
+   "src": "nordic_gravel_shoulder_p1",
+   "prompt": "Loose coarse gravel surface: many scattered angular grey and beige stones of mixed small sizes over dusty brown soil, a few dry grass blades, evenly spread.",
+   "crop": [
+    0,
+    0,
+    0.88,
+    0.88
+   ],
+   "mean": 0.48
+  },
+  "public/assets/tex/nordic/forest_floor.jpg": {
+   "src": "nordic_forest_floor_a",
+   "mean": 0.36
+  },
+  "public/assets/tex/nordic/grass.jpg": {
+   "src": "nordic_grass_b",
+   "mean": 0.5
+  },
+  "public/assets/tex/nordic/rock.jpg": {
+   "src": "nordic_rock_b",
+   "mean": 0.5
+  },
+  "public/assets/tex/nordic/dirt_bank.jpg": {
+   "src": "nordic_dirt_bank_c",
+   "mean": 0.42
+  },
+  "public/assets/tex/savanna/road.jpg": {
+   "src": "savanna_road_a",
+   "prompt": "Red laterite earth surface: compacted red-orange earth densely covered with fine red gravel, small rust and ochre pebbles and dust, evenly spread, no large stones.",
+   "mean": 0.36,
+   "flat_sigma": 0.05,
+   "sat": 0.8
+  },
+  "public/assets/tex/savanna/ground.jpg": {
+   "src": "savanna_ground_a",
+   "mean": 0.5
+  },
+  "public/assets/tex/snow/road.jpg": {
+   "src": "snow_road_p3",
+   "prompt": "Packed snow surface: compressed white snow with soft blue-lavender undulations, small chunks of hard snow, scattered fine ice crystals and a little grey grit, evenly spread small details.",
+   "mean": 0.8,
+   "rel_std": 0.08,
+   "sat": 0.7
+  },
+  "public/assets/tex/coast/road.jpg": {
+   "src": "coast_road_a",
+   "prompt": "Old asphalt surface: warm grey asphalt with dense fine aggregate of tiny light and dark stones, subtle worn patches and hairline cracks, evenly spread, no markings.",
+   "mean": 0.42,
+   "flat_sigma": 0.02,
+   "sat": 0.5
+  },
+  "public/assets/tex/coast/ground.jpg": {
+   "src": "coast_ground_p2",
+   "mean": 0.62,
+   "prompt": "Dry Mediterranean ground on flat terrain: pale beige sandy soil densely scattered with small white limestone pebbles and many small star-shaped tufts of dry olive-green thyme and straw grass, evenly spread over the whole canvas."
+  },
+  "public/assets/tex/nordic/pine_bark.jpg": {
+   "src": "pine_bark_b",
+   "crop": [
+    0.08,
+    0,
+    0.82,
+    1
+   ],
+   "mean": 0.3,
+   "rel_std": 0.3,
+   "sat": 0.72
+  }
+ },
+ "_doc": "output -> source candidate. crop = fractions [x0,y0,x1,y1] applied first (used to drop a corner pseudo-signature); prompt = override for the img2img variant (drops the word 'road', which makes Z-Image draw road edges); mean = target mean luminance (albedo-ish, chosen per material from the palette), rel_std = contrast as fraction of mean, flat_sigma = size of the lighting-flatten blur as a fraction of the tile (smaller removes more mid-scale blotches). sat = saturation multiplier. Not listed here (drawn procedurally by art/procbase.py, no model pass): snow/ground.jpg, nordic/birch_bark.jpg."
+}

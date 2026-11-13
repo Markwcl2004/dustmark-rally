@@ -1,0 +1,62 @@
+{
+ "style": "Vintage 1970s rally racing poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, graphic stylized shapes, matte paper texture, not photorealistic, no glossy plastic look. Strong atmospheric perspective where each distant layer fades into colored haze.",
+ "suffix": "",
+ "jobs": [
+  {
+   "name": "title_key_a",
+   "seed": 1101,
+   "w": 1536,
+   "h": 960,
+   "prompt": "Dramatic wide key art for a rally video game: a rally car flying over a crest jump on a gravel forest road, kicking up a huge golden dust cloud, placed on the right third of the image, low sun behind it, layered blue forest ridges fading into haze, the whole left 40 percent of the image is calm open sky and soft haze with no objects, leaving empty space for a title. The rally car is a fictional unbranded generic 1980s style boxy rally hatchback with plain two-tone livery stripes and blank white door roundels, no logos, no badges, no text, no letters, no numbers. Full bleed image with no border, no frame, no title, no caption, no watermark, no signature."
+  },
+  {
+   "name": "title_key_b",
+   "seed": 1102,
+   "w": 1536,
+   "h": 960,
+   "prompt": "Dramatic wide key art for a rally video game: a rally car drifting sideways around a corner on a dusty gravel road, the car on the right third, a huge plume of dust lit by low warm evening sun, pine forest silhouettes and layered ridges fading into warm haze, the left 40 percent of the image is empty open sky and haze with no objects, leaving space for a title. The rally car is a fictional unbranded generic 1980s style boxy rally hatchback with plain two-tone livery stripes and blank white door roundels, no logos, no badges, no text, no letters, no numbers. Full bleed image with no border, no frame, no title, no caption, no watermark, no signature."
+  },
+  {
+   "name": "poster_nordic",
+   "seed": 1111,
+   "w": 832,
+   "h": 1248,
+   "prompt": "Tall vertical rally event poster artwork: a rally car jumping over a crest on a gravel road through a northern pine and birch forest, dust plume, a calm lake and blue forested ridges in layered haze behind, low golden morning sun, empty pale sky in the top quarter. The rally car is a fictional unbranded generic 1980s style boxy rally hatchback with plain two-tone livery stripes and blank white door roundels, no logos, no badges, no text, no letters, no numbers. Full bleed image with no border, no frame, no title, no caption, no watermark, no signature."
+  },
+  {
+   "name": "poster_savanna",
+   "seed": 1112,
+   "w": 832,
+   "h": 1248,
+   "prompt": "Tall vertical rally event poster artwork: a rally car racing along a red earth road across a savanna plateau, a huge red-orange dust plume, flat-topped acacia trees, distant mesas in ochre haze, blazing midday sun, empty pale sky in the top quarter. The rally car is a fictional unbranded generic 1980s style boxy rally hatchback with plain two-tone livery stripes and blank white door roundels, no logos, no badges, no text, no letters, no numbers. Full bleed image with no border, no frame, no title, no caption, no watermark, no signature."
+  },
+  {
+   "name": "poster_snow",
+   "seed": 1113,
+   "w": 832,
+   "h": 1248,
+   "prompt": "Tall vertical rally event poster artwork: a rally car sliding on a snow road between tall snow banks, snow spray, snow laden fir trees, distant white mountains fading into lavender fog, gently falling snow, empty pale sky in the top quarter. The rally car is a fictional unbranded generic 1980s style boxy rally hatchback with plain two-tone livery stripes and blank white door roundels, no logos, no badges, no text, no letters, no numbers. Full bleed image with no border, no frame, no title, no caption, no watermark, no signature."
+  },
+  {
+   "name": "poster_coast",
+   "seed": 1114,
+   "w": 832,
+   "h": 1248,
+   "prompt": "Tall vertical rally event poster artwork: a rally car on a hairpin of a mountain road high above a deep blue sea, stone walls, cypress trees, a white village on the hillside, headlands fading into haze, bright sun, empty pale sky in the top quarter. The rally car is a fictional unbranded generic 1980s style boxy rally hatchback with plain two-tone livery stripes and blank white door roundels, no logos, no badges, no text, no letters, no numbers. Full bleed image with no border, no frame, no title, no caption, no watermark, no signature."
+  },
+  {
+   "name": "loading_a",
+   "seed": 1121,
+   "w": 1280,
+   "h": 720,
+   "prompt": "Quiet moody scene for a rally game loading screen: a rally car parked at a forest service area at dawn, mechanics' tools and tyres stacked, misty pine forest behind fading into blue haze, soft low light. The rally car is a fictional unbranded generic 1980s style boxy rally hatchback with plain two-tone livery stripes and blank white door roundels, no logos, no badges, no text, no letters, no numbers. Full bleed image with no border, no frame, no title, no caption, no watermark, no signature."
+  },
+  {
+   "name": "loading_b",
+   "seed": 1122,
+   "w": 1280,
+   "h": 720,
+   "prompt": "Wide scene for a rally game loading screen: a lone rally car seen small in the distance on a winding gravel road crossing vast layered hills, long dust trail, huge sky, warm low evening light, strong atmospheric haze. The rally car is a fictional unbranded generic 1980s style boxy rally hatchback with plain two-tone livery stripes and blank white door roundels, no logos, no badges, no text, no letters, no numbers. Full bleed image with no border, no frame, no title, no caption, no watermark, no signature."
+  }
+ ]
+}

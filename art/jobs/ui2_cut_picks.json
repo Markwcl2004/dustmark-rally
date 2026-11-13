@@ -1,0 +1,5 @@
+{
+ "_doc": "Trophy/medal (gold) cut-outs and the 12 rival driver portraits. Run: python3 art/post2.py cut art/jobs/ui2_cut_picks.json && python3 art/post2.py metals (silver/bronze from gold). Drivers go through ui (opaque square), see ui2_picks.json.",
+ "public/assets/ui/trophy_gold.png": {"src": "trophy_a", "raw": "art/raw/b2/ui", "height": 512, "keep_largest": true},
+ "public/assets/ui/medal_gold.png": {"src": "medal_b", "raw": "art/raw/b2/ui", "height": 512, "keep_largest": true}
+}

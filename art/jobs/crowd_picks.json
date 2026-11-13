@@ -1,0 +1,18 @@
+{
+ "public/assets/crowd/nordic_1.png": "crowd_nordic_1",
+ "public/assets/crowd/nordic_2.png": "crowd_nordic_2",
+ "public/assets/crowd/nordic_3.png": "crowd_nordic_3",
+ "public/assets/crowd/nordic_4.png": "crowd_nordic_4",
+ "public/assets/crowd/savanna_1.png": "crowd_savanna_1",
+ "public/assets/crowd/savanna_2.png": "crowd_savanna_2",
+ "public/assets/crowd/savanna_3.png": "crowd_savanna_3",
+ "public/assets/crowd/savanna_4.png": "crowd_savanna_4",
+ "public/assets/crowd/snow_1.png": "crowd_snow_1",
+ "public/assets/crowd/snow_2.png": "crowd_snow_2",
+ "public/assets/crowd/snow_3.png": "crowd_snow_3",
+ "public/assets/crowd/snow_4.png": "crowd_snow_4",
+ "public/assets/crowd/coast_1.png": "crowd_coast_1",
+ "public/assets/crowd/coast_2.png": "crowd_coast_2",
+ "public/assets/crowd/coast_3.png": "crowd_coast_3",
+ "public/assets/crowd/coast_4.png": "crowd_coast_4"
+}

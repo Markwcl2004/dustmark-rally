@@ -1,0 +1,534 @@
+{
+ "style": "Vintage 1970s rally racing poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, graphic stylized shapes, matte paper texture, not photorealistic, no glossy plastic look.",
+ "suffix": "",
+ "jobs": [
+  {
+   "name": "sv_acacia1_a",
+   "seed": 7001,
+   "cut": true,
+   "w": 1344,
+   "h": 1024,
+   "prompt": "One whole umbrella thorn acacia tree seen from the side, the complete tree visible from the base of the trunk to the top, a wide flat-topped umbrella-shaped canopy of dark olive green foliage in flat layered shapes, slender dark brown trunk forking into angled branches, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_acacia1_b",
+   "seed": 7002,
+   "cut": true,
+   "w": 1344,
+   "h": 1024,
+   "prompt": "One whole umbrella thorn acacia tree seen from the side, the complete tree visible from the base of the trunk to the top, a wide flat-topped umbrella-shaped canopy of dark olive green foliage in flat layered shapes, slender dark brown trunk forking into angled branches, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_acacia2_a",
+   "seed": 7011,
+   "cut": true,
+   "w": 1344,
+   "h": 1024,
+   "prompt": "One whole acacia tree seen from the side, the complete tree visible, a two-tiered flat canopy of olive and dark green foliage pads, slightly asymmetric, thin leaning dark brown trunk with crooked branches, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_acacia2_b",
+   "seed": 7012,
+   "cut": true,
+   "w": 1344,
+   "h": 1024,
+   "prompt": "One whole acacia tree seen from the side, the complete tree visible, a two-tiered flat canopy of olive and dark green foliage pads, slightly asymmetric, thin leaning dark brown trunk with crooked branches, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_baobab_a",
+   "seed": 7021,
+   "cut": true,
+   "w": 1024,
+   "h": 1152,
+   "prompt": "One whole baobab tree seen from the side, the complete tree visible, a very thick swollen bottle-shaped grey-brown trunk, short stubby bare branches spreading at the top with a few small clumps of olive foliage, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_baobab_b",
+   "seed": 7022,
+   "cut": true,
+   "w": 1024,
+   "h": 1152,
+   "prompt": "One whole baobab tree seen from the side, the complete tree visible, a very thick swollen bottle-shaped grey-brown trunk, short stubby bare branches spreading at the top with a few small clumps of olive foliage, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_dry_bush_a",
+   "seed": 7031,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single low dry savanna thornbush, a rounded tangle of thin dark brown twigs with sparse small olive and yellow-ochre leaves, side view, whole bush visible, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_dry_bush_b",
+   "seed": 7032,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single low dry savanna thornbush, a rounded tangle of thin dark brown twigs with sparse small olive and yellow-ochre leaves, side view, whole bush visible, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_dry_bush_c",
+   "seed": 7033,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single low dry savanna thornbush, a rounded tangle of thin dark brown twigs with sparse small olive and yellow-ochre leaves, side view, whole bush visible, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_grass_tuft_a",
+   "seed": 7041,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single tall clump of dry savanna grass, many long thin golden straw and pale ochre blades fanning upward and arching, a few feathery seed heads, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_grass_tuft_b",
+   "seed": 7042,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single tall clump of dry savanna grass, many long thin golden straw and pale ochre blades fanning upward and arching, a few feathery seed heads, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_grass_tuft_c",
+   "seed": 7043,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single tall clump of dry savanna grass, many long thin golden straw and pale ochre blades fanning upward and arching, a few feathery seed heads, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_termite_mound_a",
+   "seed": 7051,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single tall termite mound, a red-brown earth spire with lumpy knobbly sides and a few small side chimneys, side view, base at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_termite_mound_b",
+   "seed": 7052,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single tall termite mound, a red-brown earth spire with lumpy knobbly sides and a few small side chimneys, side view, base at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_rock_pile_a",
+   "seed": 7061,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A pile of several rounded weathered red-brown granite boulders stacked together, a small rock outcrop, side view, base at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sv_rock_pile_b",
+   "seed": 7062,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A pile of several rounded weathered red-brown granite boulders stacked together, a small rock outcrop, side view, base at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_pine_tall_a",
+   "seed": 7101,
+   "cut": true,
+   "w": 768,
+   "h": 1344,
+   "prompt": "One whole tall narrow spruce tree heavily laden with snow seen from the side, the complete tree visible from the base to the tip, dark navy blue-green layered branches each topped with thick white snow, short dark trunk at the base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_pine_tall_b",
+   "seed": 7102,
+   "cut": true,
+   "w": 768,
+   "h": 1344,
+   "prompt": "One whole tall narrow spruce tree heavily laden with snow seen from the side, the complete tree visible from the base to the tip, dark navy blue-green layered branches each topped with thick white snow, short dark trunk at the base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_pine_mid_a",
+   "seed": 7111,
+   "cut": true,
+   "w": 896,
+   "h": 1152,
+   "prompt": "One whole spruce tree laden with snow seen from the side, the complete tree visible from the base to the tip, conical silhouette, dark navy blue-green layered branches each topped with thick white snow, short dark trunk at the base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_pine_mid_b",
+   "seed": 7112,
+   "cut": true,
+   "w": 896,
+   "h": 1152,
+   "prompt": "One whole spruce tree laden with snow seen from the side, the complete tree visible from the base to the tip, conical silhouette, dark navy blue-green layered branches each topped with thick white snow, short dark trunk at the base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_pine_small_a",
+   "seed": 7121,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "One small young spruce tree half buried in snow seen from the side, short and wide, the complete tree visible, dark navy blue-green layered branches each topped with thick white snow, short dark trunk at the base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_pine_small_b",
+   "seed": 7122,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "One small young spruce tree half buried in snow seen from the side, short and wide, the complete tree visible, dark navy blue-green layered branches each topped with thick white snow, short dark trunk at the base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_bare_tree_a",
+   "seed": 7131,
+   "cut": true,
+   "w": 1024,
+   "h": 1152,
+   "prompt": "One whole leafless deciduous tree in winter seen from the side, the complete tree visible, bare dark grey-brown trunk and many thin branching twigs, a little white snow on top of the thicker branches, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_bare_tree_b",
+   "seed": 7132,
+   "cut": true,
+   "w": 1024,
+   "h": 1152,
+   "prompt": "One whole leafless deciduous tree in winter seen from the side, the complete tree visible, bare dark grey-brown trunk and many thin branching twigs, a little white snow on top of the thicker branches, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_bare_birch_a",
+   "seed": 7141,
+   "cut": true,
+   "w": 768,
+   "h": 1344,
+   "prompt": "One whole leafless birch tree in winter seen from the side, the complete tree visible, slender white trunk with black marks, fine dark purple-brown bare twigs, a little snow on the branches, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_bare_birch_b",
+   "seed": 7142,
+   "cut": true,
+   "w": 768,
+   "h": 1344,
+   "prompt": "One whole leafless birch tree in winter seen from the side, the complete tree visible, slender white trunk with black marks, fine dark purple-brown bare twigs, a little snow on the branches, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_snow_bush_a",
+   "seed": 7151,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single low rounded shrub buried under snow, soft white snow mounds with dark twigs and a few dark green juniper sprigs poking out, side view, whole shrub visible, sitting at the bottom of the frame. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_snow_bush_b",
+   "seed": 7152,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single low rounded shrub buried under snow, soft white snow mounds with dark twigs and a few dark green juniper sprigs poking out, side view, whole shrub visible, sitting at the bottom of the frame. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_snow_bush_c",
+   "seed": 7153,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single low rounded shrub buried under snow, soft white snow mounds with dark twigs and a few dark green juniper sprigs poking out, side view, whole shrub visible, sitting at the bottom of the frame. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_pine_branch_a",
+   "seed": 7161,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single spruce branch with dark blue-green needles and thick clumps of white snow lying on top, flat lay seen from above, the branch spans the frame diagonally from bottom left to top right. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "sn_pine_branch_b",
+   "seed": 7162,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single spruce branch with dark blue-green needles and thick clumps of white snow lying on top, flat lay seen from above, the branch spans the frame diagonally from bottom left to top right. Isolated on a plain flat uniform medium slate grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_cypress_a",
+   "seed": 7201,
+   "cut": true,
+   "w": 640,
+   "h": 1408,
+   "prompt": "One whole tall slender Italian cypress tree seen from the side, the complete tree visible from the base to the pointed tip, a narrow dark green flame-shaped column of dense foliage, short brown trunk at the base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_cypress_b",
+   "seed": 7202,
+   "cut": true,
+   "w": 640,
+   "h": 1408,
+   "prompt": "One whole tall slender Italian cypress tree seen from the side, the complete tree visible from the base to the pointed tip, a narrow dark green flame-shaped column of dense foliage, short brown trunk at the base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_cypress_c",
+   "seed": 7203,
+   "cut": true,
+   "w": 640,
+   "h": 1408,
+   "prompt": "One whole tall slender Italian cypress tree seen from the side, the complete tree visible from the base to the pointed tip, a narrow dark green flame-shaped column of dense foliage, short brown trunk at the base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_olive_a",
+   "seed": 7211,
+   "cut": true,
+   "w": 1152,
+   "h": 1024,
+   "prompt": "One whole old olive tree seen from the side, the complete tree visible, a gnarled twisted grey trunk splitting into a few limbs, a rounded airy crown of silvery grey-green small leaves in flat clumps, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_olive_b",
+   "seed": 7212,
+   "cut": true,
+   "w": 1152,
+   "h": 1024,
+   "prompt": "One whole old olive tree seen from the side, the complete tree visible, a gnarled twisted grey trunk splitting into a few limbs, a rounded airy crown of silvery grey-green small leaves in flat clumps, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_olive_c",
+   "seed": 7213,
+   "cut": true,
+   "w": 1152,
+   "h": 1024,
+   "prompt": "One whole old olive tree seen from the side, the complete tree visible, a gnarled twisted grey trunk splitting into a few limbs, a rounded airy crown of silvery grey-green small leaves in flat clumps, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_umbrella_pine_a",
+   "seed": 7221,
+   "cut": true,
+   "w": 1152,
+   "h": 1152,
+   "prompt": "One whole Mediterranean stone pine tree seen from the side, the complete tree visible, a tall bare curving reddish-grey trunk and a broad flat dome-shaped dark green canopy at the top, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_umbrella_pine_b",
+   "seed": 7222,
+   "cut": true,
+   "w": 1152,
+   "h": 1152,
+   "prompt": "One whole Mediterranean stone pine tree seen from the side, the complete tree visible, a tall bare curving reddish-grey trunk and a broad flat dome-shaped dark green canopy at the top, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_agave_a",
+   "seed": 7231,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single agave plant, a rosette of thick pointed blue-grey-green fleshy leaves fanning out from the base, side view, base at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_agave_b",
+   "seed": 7232,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single agave plant, a rosette of thick pointed blue-grey-green fleshy leaves fanning out from the base, side view, base at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_bush_a",
+   "seed": 7241,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single rounded Mediterranean maquis shrub with dense dark green and olive small-leaved foliage, side view, whole shrub visible, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_bush_b",
+   "seed": 7242,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single rounded Mediterranean maquis shrub with dense dark green and olive small-leaved foliage, side view, whole shrub visible, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_bush_c",
+   "seed": 7243,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single rounded Mediterranean maquis shrub with dense dark green and olive small-leaved foliage, side view, whole shrub visible, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_flower_bush_a",
+   "seed": 7251,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single rounded oleander bush covered in many pink and magenta flowers among narrow dark green leaves, side view, whole bush visible, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "co_flower_bush_b",
+   "seed": 7252,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single rounded oleander bush covered in many pink and magenta flowers among narrow dark green leaves, side view, whole bush visible, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_fern_a",
+   "seed": 7301,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single fern plant with several long arching fronds of green and olive pinnate leaves, side view, the base of the plant at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_fern_b",
+   "seed": 7302,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single fern plant with several long arching fronds of green and olive pinnate leaves, side view, the base of the plant at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_bracken_a",
+   "seed": 7311,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single bracken fern clump with wide arching fronds turning golden yellow and olive, side view, the base of the plant at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_bracken_b",
+   "seed": 7312,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single bracken fern clump with wide arching fronds turning golden yellow and olive, side view, the base of the plant at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_grass_tuft_a",
+   "seed": 7321,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single clump of tall wild meadow grass, thin green and straw yellow blades arching outward, a few slender seed heads, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_grass_tuft_b",
+   "seed": 7322,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single clump of tall wild meadow grass, thin green and straw yellow blades arching outward, a few slender seed heads, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_grass_tuft_c",
+   "seed": 7323,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single clump of tall wild meadow grass, thin green and straw yellow blades arching outward, a few slender seed heads, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_lupins_a",
+   "seed": 7331,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A small clump of wild purple and pink lupin flowers with tall flower spikes and green leaves, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_lupins_b",
+   "seed": 7332,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A small clump of wild purple and pink lupin flowers with tall flower spikes and green leaves, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_wildflowers_a",
+   "seed": 7341,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A small clump of wild meadow flowers: white daisies, yellow buttercups and a few pink fireweed spikes among green grass, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_wildflowers_b",
+   "seed": 7342,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A small clump of wild meadow flowers: white daisies, yellow buttercups and a few pink fireweed spikes among green grass, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_reed_a",
+   "seed": 7351,
+   "cut": true,
+   "w": 768,
+   "h": 1152,
+   "prompt": "A clump of tall lakeside reeds, many long thin straight stalks with brown feathery plume tops and narrow green and straw leaves, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_reed_b",
+   "seed": 7352,
+   "cut": true,
+   "w": 768,
+   "h": 1152,
+   "prompt": "A clump of tall lakeside reeds, many long thin straight stalks with brown feathery plume tops and narrow green and straw leaves, side view, base of the clump at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_stump_a",
+   "seed": 7361,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single old tree stump with spreading roots, sawn flat top showing pale rings, grey-brown bark, a little green moss on one side, side view, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_stump_b",
+   "seed": 7362,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single old tree stump with spreading roots, sawn flat top showing pale rings, grey-brown bark, a little green moss on one side, side view, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_log_pile_a",
+   "seed": 7371,
+   "cut": true,
+   "w": 1344,
+   "h": 768,
+   "prompt": "A long stack of cut pine logs piled horizontally at a forest roadside, seen from the side so the round cut ends of the logs face the viewer, orange-brown bark and pale yellow cut ends with rings, four rows high, wide and low, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_log_pile_b",
+   "seed": 7372,
+   "cut": true,
+   "w": 1344,
+   "h": 768,
+   "prompt": "A long stack of cut pine logs piled horizontally at a forest roadside, seen from the side so the round cut ends of the logs face the viewer, orange-brown bark and pale yellow cut ends with rings, four rows high, wide and low, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_red_cabin_a",
+   "seed": 7381,
+   "cut": true,
+   "w": 1344,
+   "h": 896,
+   "prompt": "A small traditional Nordic red wooden cabin seen exactly from the front side as a flat elevation with no perspective, red painted vertical wooden board walls, white window frames and white corner trims, a white door, dark grey pitched roof, a small brick chimney, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_red_cabin_b",
+   "seed": 7382,
+   "cut": true,
+   "w": 1344,
+   "h": 896,
+   "prompt": "A small traditional Nordic red wooden cabin seen exactly from the front side as a flat elevation with no perspective, red painted vertical wooden board walls, white window frames and white corner trims, a white door, dark grey pitched roof, a small brick chimney, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "no_red_cabin_c",
+   "seed": 7383,
+   "cut": true,
+   "w": 1344,
+   "h": 896,
+   "prompt": "A small traditional Nordic red wooden cabin seen exactly from the front side as a flat elevation with no perspective, red painted vertical wooden board walls, white window frames and white corner trims, a white door, dark grey pitched roof, a small brick chimney, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  }
+ ]
+}

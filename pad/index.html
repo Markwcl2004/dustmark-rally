@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<!-- iOS ignores user-scalable=no since iOS 10; zoom is also blocked by touch-action:none + preventDefault in pad.js -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#1b1b1b">
+<title>DUSTMARK 方向盘</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Crect width=%2716%27 height=%2716%27 fill=%27%23c8362a%27/%3E%3Cpath d=%27M3 12 Q8 2 13 12%27 stroke=%27%23f1ece0%27 stroke-width=%272%27 fill=%27none%27/%3E%3C/svg%3E">
+<!--PAD_CSS-->
+</head>
+<body>
+<div id="ctl">
+  <div class="zone brake" id="zBrake"><div class="fill"></div><div class="lbl">刹车</div><div class="pct mono">0</div><i class="mark"><b class="t100"></b><b class="t20"></b></i></div>
+  <div class="zone gas" id="zGas"><div class="fill"></div><div class="lbl">油门</div><div class="pct mono">0</div><i class="mark"><b class="t100"></b><b class="t20"></b></i></div>
+
+  <button class="btn shift dn" data-btn="dn"><span class="ar">▼</span>降挡</button>
+  <button class="btn shift up" data-btn="up"><span class="ar">▲</span>升挡</button>
+  <button class="btn hb" data-btn="hb">手刹</button>
+
+  <div class="toprow">
+    <button class="btn sm" data-btn="pause">暂停</button>
+    <button class="btn sm" data-btn="camera">视角</button>
+    <button class="btn sm" data-btn="predict">P 预测</button>
+    <button class="btn sm" data-btn="reset">回到赛道</button>
+    <button class="btn sm gear" data-btn="settings" aria-label="设置">设置</button>
+  </div>
+
+  <div class="cluster">
+    <div class="conn"><i id="cDot"></i><span id="cText">连接中…</span></div>
+    <div class="dash">
+      <div class="gearbox mono" id="gGear">–</div>
+      <div class="spd"><span class="mono" id="gSpeed">0</span><small>km/h</small></div>
+    </div>
+    <div class="rpm" id="gRpm"></div>
+    <div class="note" id="gNote">&nbsp;</div>
+    <div class="steer">
+      <svg class="wheel" id="sWheel" viewBox="-20 -20 40 40" aria-hidden="true"><circle r="16" fill="none" stroke="currentColor" stroke-width="4"/><path d="M-15 1 H15 M0 1 V15" stroke="currentColor" stroke-width="4"/><rect x="-2.5" y="-19" width="5" height="7" fill="#c8362a"/></svg>
+      <div class="sbar"><i id="sFill"></i><b></b></div>
+    </div>
+    <div class="detail mono" id="cDetail"></div>
+    <div class="warn" id="wTilt">请把手机立起来一点</div>
+    <div class="warn" id="wSensor">没有收到陀螺仪数据</div>
+    <div class="warn info" id="wGame">游戏页面未打开</div>
+  </div>
+
+  <button class="btn center" data-btn="center">回中</button>
+  <div class="note-lock" id="wLock"></div>
+</div>
+
+<div class="screen" id="sStart">
+  <div class="logo">尘迹拉力<span>DUSTMARK · 手机方向盘</span></div>
+  <button class="go native" id="bStart">开始</button>
+  <p>点“开始”后，iPhone 会询问能否使用“动作与方向”，请点<b>允许</b>。<br>然后像握方向盘一样横握手机。</p>
+</div>
+
+<div class="screen" id="sDeny">
+  <h2>没有拿到“动作与方向”权限</h2>
+  <ul>
+    <li>如果刚才点了“不允许”：iOS 会记住这次选择。请关闭这个标签页，再从游戏里的二维码重新打开，点“开始”后选<b>允许</b>。</li>
+    <li>如果关掉重开后不再弹出询问：退出 Safari（在多任务界面上滑掉）再打开；仍不行就在 设置 › App › Safari › 高级 › 网站数据 里删掉这个地址的数据（较旧的 iOS 在 设置 › Safari 下）。</li>
+    <li>地址必须以 https:// 开头。扫码打开的就是；手动输入时别漏了。</li>
+  </ul>
+  <p class="err mono" id="denyWhy"></p>
+  <button class="go native" id="bRetry">再试一次</button>
+</div>
+
+<div class="screen" id="sNoKey">
+  <h2>缺少配对码</h2>
+  <p>请在电脑的游戏里按 <b>K</b> 打开配对面板，用相机扫二维码进入这个页面。</p>
+</div>
+
+<div class="screen" id="sBadKey">
+  <h2>配对码已失效</h2>
+  <p>游戏服务重启过，配对码换了。请在电脑的游戏里按 <b>K</b>，重新扫一次二维码。</p>
+</div>
+
+<div class="screen" id="sReplaced">
+  <h2>另一台手机接管了方向盘</h2>
+  <p>同一时间只能连一台手机。要用这台，请刷新页面。</p>
+  <button class="go native" id="bReload">刷新</button>
+</div>
+
+<div class="screen" id="sPortrait">
+  <svg viewBox="0 0 120 80" width="150" aria-hidden="true"><rect x="10" y="22" width="70" height="40" rx="7" fill="none" stroke="#f1ece0" stroke-width="5"/><path d="M95 18 a28 28 0 0 1 8 32" fill="none" stroke="#e8b23a" stroke-width="5"/><path d="M96 54 l9 -2 l-1 -10" fill="none" stroke="#e8b23a" stroke-width="5"/></svg>
+  <h2>请横握手机</h2>
+  <p>像握方向盘一样，两手拇指分别放在屏幕左右两半。<br>如果转不过来，请在控制中心关掉“竖排方向锁定”。</p>
+</div>
+
+<div class="screen dim" id="sDown">
+  <h2>连接断开</h2>
+  <p id="downWhy">正在重连…</p>
+  <p class="small">游戏里车已自动收油、方向回中。连不上请看电脑上的配对面板（按 K）：手机和电脑要在同一个 Wi-Fi，或者用数据线连接（配对面板里选“有线”）。</p>
+</div>
+
+<div class="sheet native" id="sSettings">
+  <h3>设置</h3>
+  <label>满舵角度 <output id="oRange"></output><input type="range" id="iRange" min="30" max="90" step="5"></label>
+  <label>死区 <output id="oDz"></output><input type="range" id="iDz" min="0" max="10" step="0.5"></label>
+  <label>转向曲线 <output id="oCurve"></output><input type="range" id="iCurve" min="1" max="2.2" step="0.05"></label>
+  <label class="row">转向反向 <input type="checkbox" id="iInv"></label>
+  <label class="row">踏板 <select id="iPedal"><option value="analog">按下 60% · 上滑 100% · 下滑 20%</option><option value="switch">开关（按下即 100%）</option></select></label>
+  <button class="go native small" id="bDone">完成</button>
+</div>
+
+<div id="simNotch" aria-hidden="true"><i class="island"></i><i class="home"></i></div>
+<!--PAD_JS-->
+</body>
+</html>

@@ -1,0 +1,110 @@
+{
+ "style": "Vintage 1970s rally racing poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, strong atmospheric perspective where each distant layer fades into colored haze, graphic stylized shapes, matte paper texture with visible gouache brush grain and silkscreen speckle, full bleed edge-to-edge image with no border, no frame, no caption, not photorealistic, no glossy plastic look.",
+ "suffix": "The rally car is a fictional unbranded generic 1980s style boxy rally hatchback with plain two-tone livery stripes and blank white door roundels, no logos, no badges, no text, no letters, no numbers, no watermark, no signature.",
+ "defaults": {
+  "w": 1280,
+  "h": 720
+ },
+ "jobs": [
+  {
+   "name": "concept_nordic_1",
+   "seed": 11,
+   "prompt": "Video game chase camera view from behind and slightly above a rally car drifting on a narrow gravel road through a northern pine and birch forest, a tall plume of ochre dust rising behind the car, low golden morning sun from the left casting long blue shadows of the tree trunks across the road, rolling forested hills behind fading to pale blue-grey haze, a glimpse of a calm lake, pale cool sky."
+  },
+  {
+   "name": "concept_nordic_2",
+   "seed": 12,
+   "prompt": "Video game chase camera view from behind a rally car cresting a hill on a gravel forest road, the road dropping away ahead between dark green spruce and white birch trunks, a red wooden cabin and a stack of logs at the roadside, warm low evening sun ahead casting long shadows toward the camera, golden dust haze backlit, distant ridges in layered blue haze."
+  },
+  {
+   "name": "concept_nordic_3",
+   "seed": 13,
+   "prompt": "Video game chase camera view from behind a rally car on a gravel road in a misty northern pine forest at early morning, trees dissolving into soft grey-green fog in the distance, faint sunbeams from the upper right, dust kicked up by the wheels, mossy road edges with loose stones, a few spectators in winter jackets standing far back behind tape on a bank."
+  },
+  {
+   "name": "concept_savanna_1",
+   "seed": 21,
+   "prompt": "Video game chase camera view from behind and slightly above a rally car racing on a red earth dirt road across a high savanna plateau, a huge billowing plume of red-orange dust behind the car, flat-topped acacia trees, dry yellow grass, scattered boulders, harsh high midday sun with short dark shadows, distant mesas fading into pale ochre haze, bleached hot sky."
+  },
+  {
+   "name": "concept_savanna_2",
+   "seed": 22,
+   "prompt": "Video game chase camera view from behind a rally car splashing through a shallow river crossing on a red dirt track in the savanna, water spray, flat-topped acacia trees silhouetted, low sun setting ahead painting the sky orange and violet, long shadows, dust haze glowing, distant flat mesas in purple haze."
+  },
+  {
+   "name": "concept_savanna_3",
+   "seed": 23,
+   "prompt": "Video game chase camera view from behind a rally car on a long straight red gravel road on a dry plateau, rocky outcrops and termite mounds, acacia trees, a thick dust cloud trailing behind, late afternoon sun from the right casting long shadows, distant blue-violet mountains, pale turquoise sky with streaks of cloud."
+  },
+  {
+   "name": "concept_snow_1",
+   "seed": 31,
+   "prompt": "Video game chase camera view from behind and slightly above a rally car on a narrow snow covered mountain road lined with tall snow banks, snow spray kicked up by the wheels, snow laden fir trees, gently falling snowflakes, overcast flat grey-lavender light, distant mountain ridges disappearing into white fog, cold desaturated palette."
+  },
+  {
+   "name": "concept_snow_2",
+   "seed": 32,
+   "prompt": "Video game chase camera view from behind a rally car on an icy snow road through a snowy conifer forest on a clear cold morning, low pale sun from the left casting long blue shadows on the snow, sparkling snow spray, wooden snow fences, distant jagged white peaks against a deep clear cyan sky."
+  },
+  {
+   "name": "concept_snow_3",
+   "seed": 33,
+   "prompt": "Video game chase camera view from behind a rally car at night on a snowy forest road, the car headlights illuminating falling snow and the snow banks ahead, dark blue night, snow covered fir trees as silhouettes, a few spectators with lanterns behind tape, faint moonlit ridges in the distance."
+  },
+  {
+   "name": "concept_coast_1",
+   "seed": 41,
+   "prompt": "Video game chase camera view from behind and slightly above a rally car on a winding asphalt mountain road high above a Mediterranean style sea, a low dry stone wall on the right and a metal guardrail on the cliff edge, hairpin bends below, cypress and olive trees, a white village on the hillside, bright clear sun from the upper left, deep blue sea fading into pale haze at the horizon."
+  },
+  {
+   "name": "concept_coast_2",
+   "seed": 42,
+   "prompt": "Video game chase camera view from behind a rally car on a coastal mountain asphalt road after rain, wet road reflecting a golden late afternoon sun, light spray from the tires, rocky cliffs dropping to a turquoise sea, umbrella pines and cypresses, terracotta roof village below, layered headlands fading into warm haze."
+  },
+  {
+   "name": "concept_coast_3",
+   "seed": 43,
+   "prompt": "Video game chase camera view from behind a rally car on a hairpin on a coastal mountain road, gravel loose on the shoulder, stone retaining walls, olive groves on terraces, a few spectators waving on a wall, sea and islands in blue haze below, warm sun from behind the camera."
+  },
+  {
+   "name": "concept_nordic_1b",
+   "seed": 111,
+   "prompt": "Video game chase camera view from behind and slightly above a rally car drifting on a narrow gravel road through a northern pine and birch forest, a tall plume of ochre dust rising behind the car, low golden morning sun from the left casting long blue shadows of the tree trunks across the road, rolling forested hills behind fading to pale blue-grey haze, a glimpse of a calm lake, pale cool sky."
+  },
+  {
+   "name": "concept_nordic_2b",
+   "seed": 112,
+   "prompt": "Video game chase camera view from behind a rally car cresting a hill on a gravel forest road, the road dropping away ahead between dark green spruce and white birch trunks, a red wooden cabin and a stack of logs at the roadside, warm low evening sun ahead casting long shadows toward the camera, golden dust haze backlit, distant ridges in layered blue haze."
+  },
+  {
+   "name": "concept_savanna_1b",
+   "seed": 121,
+   "prompt": "Video game chase camera view from behind and slightly above a rally car racing on a red earth dirt road across a high savanna plateau, a huge billowing plume of red-orange dust behind the car, flat-topped acacia trees, dry yellow grass, scattered boulders, harsh high midday sun with short dark shadows, distant mesas fading into pale ochre haze, bleached hot sky."
+  },
+  {
+   "name": "concept_savanna_3b",
+   "seed": 123,
+   "prompt": "Video game chase camera view from behind a rally car on a long straight red gravel road on a dry plateau, rocky outcrops and termite mounds, acacia trees, a thick dust cloud trailing behind, late afternoon sun from the right casting long shadows, distant blue-violet mountains, pale turquoise sky with streaks of cloud."
+  },
+  {
+   "name": "concept_snow_1b",
+   "seed": 131,
+   "prompt": "Video game chase camera view from behind and slightly above a rally car on a narrow snow covered mountain road lined with tall snow banks, snow spray kicked up by the wheels, snow laden fir trees, gently falling snowflakes, overcast flat grey-lavender light, distant mountain ridges disappearing into white fog, cold desaturated palette."
+  },
+  {
+   "name": "concept_snow_2b",
+   "seed": 132,
+   "prompt": "Video game chase camera view from behind a rally car on an icy snow road through a snowy conifer forest on a clear cold morning, low pale sun from the left casting long blue shadows on the snow, sparkling snow spray, wooden snow fences, distant jagged white peaks against a deep clear cyan sky."
+  },
+  {
+   "name": "concept_coast_1b",
+   "seed": 141,
+   "prompt": "Video game chase camera view from behind and slightly above a rally car on a winding asphalt mountain road high above a Mediterranean style sea, a low dry stone wall on the right and a metal guardrail on the cliff edge, hairpin bends below, cypress and olive trees, a white village on the hillside, bright clear sun from the upper left, deep blue sea fading into pale haze at the horizon."
+  },
+  {
+   "name": "concept_coast_3b",
+   "seed": 143,
+   "prompt": "Video game chase camera view from behind a rally car on a hairpin on a coastal mountain road, gravel loose on the shoulder, stone retaining walls, olive groves on terraces, a few spectators waving on a wall, sea and islands in blue haze below, warm sun from behind the camera."
+  }
+ ]
+}

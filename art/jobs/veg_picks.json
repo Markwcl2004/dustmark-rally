@@ -1,0 +1,58 @@
+{
+ "public/assets/tex/nordic/pine_branch.png": {
+  "src": "pine_branch_b",
+  "width": 512,
+  "sat": 0.85
+ },
+ "public/assets/tex/nordic/pine_branch_2.png": {
+  "src": "pine_branch_a",
+  "width": 512,
+  "sat": 0.85
+ },
+ "public/assets/tex/nordic/birch_leaves.png": {
+  "src": "birch_leaves_b",
+  "width": 512,
+  "sat": 0.8
+ },
+ "public/assets/tex/nordic/birch_leaves_2.png": {
+  "src": "birch_leaves_a",
+  "width": 512,
+  "sat": 0.8
+ },
+ "public/assets/tex/nordic/bush.png": {
+  "src": "bush_a",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9
+ },
+ "public/assets/tex/nordic/bush_2.png": {
+  "src": "bush_b",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9
+ },
+ "public/assets/tex/nordic/pine_billboard.png": {
+  "src": "pine_billboard_a",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.8
+ },
+ "public/assets/tex/nordic/pine_billboard_2.png": {
+  "src": "pine_billboard_b",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.8
+ },
+ "public/assets/tex/nordic/birch_billboard.png": {
+  "src": "birch_billboard_a",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.8
+ },
+ "public/assets/tex/nordic/birch_billboard_2.png": {
+  "src": "birch_billboard_b",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.8
+ }
+}

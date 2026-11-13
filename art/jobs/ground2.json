@@ -1,0 +1,160 @@
+{
+ "style": "Overhead close-up gouache painting looking straight down at the ground from directly above, like a top-down map, the entire canvas is densely covered edge to edge, flat even soft overcast daylight with no cast shadows, stylised illustration with simplified painted shapes and fine brush grain, muted natural colors.",
+ "suffix": "Nothing else, no frame, no text.",
+ "defaults": {
+  "w": 1024,
+  "h": 1024
+ },
+ "jobs": [
+  {
+   "name": "savanna_shoulder_a",
+   "seed": 6000,
+   "prompt": "Loose red earth gravel: compacted rust-red dusty soil scattered with many small angular red-brown, ochre and dull maroon stone chips, fine red dust, a few thin dry straw blades. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "savanna_shoulder_b",
+   "seed": 6007,
+   "prompt": "Loose red earth gravel: compacted rust-red dusty soil scattered with many small angular red-brown, ochre and dull maroon stone chips, fine red dust, a few thin dry straw blades. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "savanna_shoulder_c",
+   "seed": 6014,
+   "prompt": "Loose red earth gravel: compacted rust-red dusty soil scattered with many small angular red-brown, ochre and dull maroon stone chips, fine red dust, a few thin dry straw blades. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "savanna_dry_grass_a",
+   "seed": 6030,
+   "prompt": "Dry savanna grass mat: a dense carpet of thin golden straw, pale ochre and faded olive grass blades lying flat in many directions, painted as short fine brush strokes, a little red soil showing between. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No tufts, no star shapes."
+  },
+  {
+   "name": "savanna_dry_grass_b",
+   "seed": 6037,
+   "prompt": "Dry savanna grass mat: a dense carpet of thin golden straw, pale ochre and faded olive grass blades lying flat in many directions, painted as short fine brush strokes, a little red soil showing between. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No tufts, no star shapes."
+  },
+  {
+   "name": "savanna_dry_grass_c",
+   "seed": 6044,
+   "prompt": "Dry savanna grass mat: a dense carpet of thin golden straw, pale ochre and faded olive grass blades lying flat in many directions, painted as short fine brush strokes, a little red soil showing between. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No tufts, no star shapes."
+  },
+  {
+   "name": "savanna_rock_a",
+   "seed": 6060,
+   "prompt": "Weathered red-brown sandstone rock surface painted in flat gouache: small angular facets in a few flat tones of rust, terracotta, ochre and dull maroon, thin dark hairline cracks, tiny pale speckles, posterised flat color areas. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No blocks, no large cracks."
+  },
+  {
+   "name": "savanna_rock_b",
+   "seed": 6067,
+   "prompt": "Weathered red-brown sandstone rock surface painted in flat gouache: small angular facets in a few flat tones of rust, terracotta, ochre and dull maroon, thin dark hairline cracks, tiny pale speckles, posterised flat color areas. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No blocks, no large cracks."
+  },
+  {
+   "name": "savanna_rock_c",
+   "seed": 6074,
+   "prompt": "Weathered red-brown sandstone rock surface painted in flat gouache: small angular facets in a few flat tones of rust, terracotta, ochre and dull maroon, thin dark hairline cracks, tiny pale speckles, posterised flat color areas. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No blocks, no large cracks."
+  },
+  {
+   "name": "savanna_riverbed_a",
+   "seed": 6090,
+   "prompt": "Dry riverbed: many small rounded river pebbles in ochre, grey-brown, cream and rust red packed into pale dried mud, a few darker damp brown mud patches, fine sand between. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "savanna_riverbed_b",
+   "seed": 6097,
+   "prompt": "Dry riverbed: many small rounded river pebbles in ochre, grey-brown, cream and rust red packed into pale dried mud, a few darker damp brown mud patches, fine sand between. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "savanna_riverbed_c",
+   "seed": 6104,
+   "prompt": "Dry riverbed: many small rounded river pebbles in ochre, grey-brown, cream and rust red packed into pale dried mud, a few darker damp brown mud patches, fine sand between. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "snow_ice_a",
+   "seed": 6120,
+   "prompt": "Frozen ice surface: smooth pale blue and grey-blue ice in flat painted color areas, faint white frost streaks, small white highlight glints, tiny trapped air bubbles and fine hairline scratches, subtle lighter and darker blue patches. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No large cracks."
+  },
+  {
+   "name": "snow_ice_b",
+   "seed": 6127,
+   "prompt": "Frozen ice surface: smooth pale blue and grey-blue ice in flat painted color areas, faint white frost streaks, small white highlight glints, tiny trapped air bubbles and fine hairline scratches, subtle lighter and darker blue patches. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No large cracks."
+  },
+  {
+   "name": "snow_ice_c",
+   "seed": 6134,
+   "prompt": "Frozen ice surface: smooth pale blue and grey-blue ice in flat painted color areas, faint white frost streaks, small white highlight glints, tiny trapped air bubbles and fine hairline scratches, subtle lighter and darker blue patches. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No large cracks."
+  },
+  {
+   "name": "snow_snow_bank_a",
+   "seed": 6150,
+   "prompt": "Rough heaped snow: lumpy white snow made of many small chunks and clumps, soft pale lavender-blue shadows between them, fine icy grain, a few tiny ice crystals. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "snow_snow_bank_b",
+   "seed": 6157,
+   "prompt": "Rough heaped snow: lumpy white snow made of many small chunks and clumps, soft pale lavender-blue shadows between them, fine icy grain, a few tiny ice crystals. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "snow_snow_bank_c",
+   "seed": 6164,
+   "prompt": "Rough heaped snow: lumpy white snow made of many small chunks and clumps, soft pale lavender-blue shadows between them, fine icy grain, a few tiny ice crystals. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "snow_rock_snow_a",
+   "seed": 6180,
+   "prompt": "Dark blue-grey slate rock painted in flat gouache: small angular facets in a few flat tones of dark slate, navy grey and cold grey, many small patches of white snow and frost caught in the cracks. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No large cracks, no large snow patches."
+  },
+  {
+   "name": "snow_rock_snow_b",
+   "seed": 6187,
+   "prompt": "Dark blue-grey slate rock painted in flat gouache: small angular facets in a few flat tones of dark slate, navy grey and cold grey, many small patches of white snow and frost caught in the cracks. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No large cracks, no large snow patches."
+  },
+  {
+   "name": "snow_rock_snow_c",
+   "seed": 6194,
+   "prompt": "Dark blue-grey slate rock painted in flat gouache: small angular facets in a few flat tones of dark slate, navy grey and cold grey, many small patches of white snow and frost caught in the cracks. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No large cracks, no large snow patches."
+  },
+  {
+   "name": "coast_shoulder_a",
+   "seed": 6210,
+   "prompt": "Loose roadside gravel: many small angular pale limestone chips and grey and beige pebbles of similar small size over pale dusty soil, a few thin dry grass blades. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "coast_shoulder_b",
+   "seed": 6217,
+   "prompt": "Loose roadside gravel: many small angular pale limestone chips and grey and beige pebbles of similar small size over pale dusty soil, a few thin dry grass blades. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "coast_shoulder_c",
+   "seed": 6224,
+   "prompt": "Loose roadside gravel: many small angular pale limestone chips and grey and beige pebbles of similar small size over pale dusty soil, a few thin dry grass blades. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature."
+  },
+  {
+   "name": "nordic_grass_a",
+   "seed": 6240,
+   "prompt": "Meadow grass mat: a dense layer of thin short grass blades lying in many directions, painted as fine short brush strokes in muted olive, sage green and straw yellow, a few tiny white and yellow flower dots. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No tufts, no star shapes, no bare ground."
+  },
+  {
+   "name": "nordic_grass_b",
+   "seed": 6247,
+   "prompt": "Meadow grass mat: a dense layer of thin short grass blades lying in many directions, painted as fine short brush strokes in muted olive, sage green and straw yellow, a few tiny white and yellow flower dots. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No tufts, no star shapes, no bare ground."
+  },
+  {
+   "name": "nordic_grass_c",
+   "seed": 6254,
+   "prompt": "Meadow grass mat: a dense layer of thin short grass blades lying in many directions, painted as fine short brush strokes in muted olive, sage green and straw yellow, a few tiny white and yellow flower dots. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No tufts, no star shapes, no bare ground."
+  },
+  {
+   "name": "nordic_rock_a",
+   "seed": 6270,
+   "prompt": "Grey granite rock surface painted in flat gouache: small angular facets in a few flat tones of blue-grey, warm grey and slate, thin dark hairline cracks, tiny pale green and ochre lichen dots, posterised flat color areas. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No blocks, no large cracks, no photographic detail."
+  },
+  {
+   "name": "nordic_rock_b",
+   "seed": 6277,
+   "prompt": "Grey granite rock surface painted in flat gouache: small angular facets in a few flat tones of blue-grey, warm grey and slate, thin dark hairline cracks, tiny pale green and ochre lichen dots, posterised flat color areas. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No blocks, no large cracks, no photographic detail."
+  },
+  {
+   "name": "nordic_rock_c",
+   "seed": 6284,
+   "prompt": "Grey granite rock surface painted in flat gouache: small angular facets in a few flat tones of blue-grey, warm grey and slate, thin dark hairline cracks, tiny pale green and ochre lichen dots, posterised flat color areas. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No blocks, no large cracks, no photographic detail."
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "_doc": "img2img over procedural underpaintings (art/procbase.py) for materials where text-to-image composes unevenly. Run with: comfy.py inpaint (full white mask = img2img).",
+ "style": "Overhead close-up gouache painting looking straight down at the ground from directly above, like a top-down map, the entire canvas is densely covered edge to edge, flat even soft overcast daylight with no cast shadows, stylised illustration with simplified painted shapes and fine brush grain, muted natural colors.",
+ "suffix": "Nothing else, no frame, no text.",
+ "jobs": [
+  {
+   "name": "nordic_gravel_road_p1",
+   "image": "art/raw/procbase/gravel_road_1.png",
+   "denoise": 0.6,
+   "seed": 4801,
+   "prompt": "Densely packed fine gravel road: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_gravel_road_p2",
+   "image": "art/raw/procbase/gravel_road_2.png",
+   "denoise": 0.6,
+   "seed": 4802,
+   "prompt": "Densely packed fine gravel road: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_gravel_road_p3",
+   "image": "art/raw/procbase/gravel_road_1.png",
+   "denoise": 0.7,
+   "seed": 4803,
+   "prompt": "Densely packed fine gravel road: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_gravel_shoulder_p1",
+   "image": "art/raw/procbase/gravel_shoulder.png",
+   "denoise": 0.62,
+   "seed": 4811,
+   "prompt": "Loose coarse road-side gravel: many scattered angular grey and beige stones of mixed small sizes over dusty brown soil, a few dry grass blades, uneven loose look, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "snow_road_p1",
+   "image": "art/raw/procbase/snow_road.png",
+   "denoise": 0.55,
+   "seed": 4821,
+   "prompt": "Packed snow road: compressed white snow surface with soft blue-lavender undulations, small chunks of hard snow, scattered fine ice crystals and a little grey grit, evenly spread small details, no tyre tracks.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "snow_road_p2",
+   "image": "art/raw/procbase/snow_road.png",
+   "denoise": 0.65,
+   "seed": 4822,
+   "prompt": "Packed snow road: compressed white snow surface with soft blue-lavender undulations, small chunks of hard snow, scattered fine ice crystals and a little grey grit, evenly spread small details, no tyre tracks.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_gravel_road_p4",
+   "image": "art/raw/procbase/gravel_road_2.png",
+   "denoise": 0.5,
+   "seed": 4804,
+   "prompt": "Densely packed fine gravel surface: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, evenly spread, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_gravel_road_p5",
+   "image": "art/raw/procbase/gravel_road_1.png",
+   "denoise": 0.55,
+   "seed": 4805,
+   "prompt": "Densely packed fine gravel surface: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, evenly spread, no large stones.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "nordic_gravel_shoulder_p2",
+   "image": "art/raw/procbase/gravel_shoulder.png",
+   "denoise": 0.5,
+   "seed": 4812,
+   "prompt": "Loose coarse gravel surface: many scattered angular grey and beige stones of mixed small sizes over dusty brown soil, a few dry grass blades, evenly spread.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "snow_road_p3",
+   "image": "art/raw/procbase/snow_road.png",
+   "denoise": 0.4,
+   "seed": 4823,
+   "prompt": "Packed snow surface: compressed white snow with soft blue-lavender undulations, small chunks of hard snow, scattered fine ice crystals and a little grey grit, evenly spread small details.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "snow_road_p4",
+   "image": "art/raw/procbase/snow_road.png",
+   "denoise": 0.5,
+   "seed": 4824,
+   "prompt": "Packed snow surface: compressed white snow with soft blue-lavender undulations, small chunks of hard snow, scattered fine ice crystals and a little grey grit, evenly spread small details.",
+   "mask": "art/raw/procbase/full_mask.png"
+  },
+  {
+   "name": "coast_ground_p1",
+   "image": "art/raw/procbase/coast_ground.png",
+   "mask": "art/raw/procbase/full_mask.png",
+   "denoise": 0.5,
+   "seed": 4831,
+   "prompt": "Dry Mediterranean ground on flat terrain: pale beige sandy soil densely scattered with small white limestone pebbles and many small star-shaped tufts of dry olive-green thyme and straw grass, evenly spread over the whole canvas."
+  },
+  {
+   "name": "coast_ground_p2",
+   "image": "art/raw/procbase/coast_ground.png",
+   "mask": "art/raw/procbase/full_mask.png",
+   "denoise": 0.6,
+   "seed": 4832,
+   "prompt": "Dry Mediterranean ground on flat terrain: pale beige sandy soil densely scattered with small white limestone pebbles and many small star-shaped tufts of dry olive-green thyme and straw grass, evenly spread over the whole canvas."
+  }
+ ],
+ "materials_no_road": {
+  "gravel": "Densely packed fine gravel surface: thousands of tiny pebbles and crushed stone chips in beige, warm grey and pale ochre, all small and similar in size, tightly packed with a little sandy dust between them, evenly spread, no large stones.",
+  "shoulder": "Loose coarse gravel surface: many scattered angular grey and beige stones of mixed small sizes over dusty brown soil, a few dry grass blades, evenly spread.",
+  "snow": "Packed snow surface: compressed white snow with soft blue-lavender undulations, small chunks of hard snow, scattered fine ice crystals and a little grey grit, evenly spread small details.",
+  "coast_ground": "Dry Mediterranean ground on flat terrain: pale beige sandy soil densely scattered with small white limestone pebbles and many small star-shaped tufts of dry olive-green thyme and straw grass, evenly spread over the whole canvas."
+ }
+}

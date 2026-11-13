@@ -1,0 +1,76 @@
+{
+ "style": "Vintage 1970s travel poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, graphic stylized shapes, matte paper texture, not photorealistic, no glossy plastic look.",
+ "suffix": "",
+ "jobs": [
+  {
+   "name": "sky_clear_a",
+   "seed": 900,
+   "w": 1920,
+   "h": 960,
+   "prompt": "Wide panoramic painted sky only, the bottom edge of the image is a flat horizon line with nothing below it, no ground, no hills, no trees, no buildings, no birds, no visible sun disc, no moon, no text, no border. Clear day sky: deep cerulean blue at the top grading to a pale warm cream haze at the horizon, a few flat stylised cumulus clouds in horizontal bands."
+  },
+  {
+   "name": "sky_clear_b",
+   "seed": 905,
+   "w": 1920,
+   "h": 960,
+   "prompt": "Wide panoramic painted sky only, the bottom edge of the image is a flat horizon line with nothing below it, no ground, no hills, no trees, no buildings, no birds, no visible sun disc, no moon, no text, no border. Clear day sky: deep cerulean blue at the top grading to a pale warm cream haze at the horizon, a few flat stylised cumulus clouds in horizontal bands."
+  },
+  {
+   "name": "sky_dusk_a",
+   "seed": 910,
+   "w": 1920,
+   "h": 960,
+   "prompt": "Wide panoramic painted sky only, the bottom edge of the image is a flat horizon line with nothing below it, no ground, no hills, no trees, no buildings, no birds, no visible sun disc, no moon, no text, no border. Dusk sky: deep violet-blue at the top grading through rose and orange to a glowing golden horizon, long flat streaks of lilac and salmon clouds."
+  },
+  {
+   "name": "sky_dusk_b",
+   "seed": 915,
+   "w": 1920,
+   "h": 960,
+   "prompt": "Wide panoramic painted sky only, the bottom edge of the image is a flat horizon line with nothing below it, no ground, no hills, no trees, no buildings, no birds, no visible sun disc, no moon, no text, no border. Dusk sky: deep violet-blue at the top grading through rose and orange to a glowing golden horizon, long flat streaks of lilac and salmon clouds."
+  },
+  {
+   "name": "sky_overcast_a",
+   "seed": 920,
+   "w": 1920,
+   "h": 960,
+   "prompt": "Wide panoramic painted sky only, the bottom edge of the image is a flat horizon line with nothing below it, no ground, no hills, no trees, no buildings, no birds, no visible sun disc, no moon, no text, no border. Overcast sky: layered flat grey and lavender stratus clouds covering everything, soft lighter band near the horizon, cold muted palette."
+  },
+  {
+   "name": "sky_overcast_b",
+   "seed": 925,
+   "w": 1920,
+   "h": 960,
+   "prompt": "Wide panoramic painted sky only, the bottom edge of the image is a flat horizon line with nothing below it, no ground, no hills, no trees, no buildings, no birds, no visible sun disc, no moon, no text, no border. Overcast sky: layered flat grey and lavender stratus clouds covering everything, soft lighter band near the horizon, cold muted palette."
+  },
+  {
+   "name": "sky_night_a",
+   "seed": 930,
+   "w": 1920,
+   "h": 960,
+   "prompt": "Wide panoramic painted sky only, the bottom edge of the image is a flat horizon line with nothing below it, no ground, no hills, no trees, no buildings, no birds, no visible sun disc, no moon, no text, no border. Night sky: deep navy blue at the top grading to a dull blue-grey glow near the horizon, small scattered stars in the upper part, a few dark flat cloud bands."
+  },
+  {
+   "name": "sky_night_b",
+   "seed": 935,
+   "w": 1920,
+   "h": 960,
+   "prompt": "Wide panoramic painted sky only, the bottom edge of the image is a flat horizon line with nothing below it, no ground, no hills, no trees, no buildings, no birds, no visible sun disc, no moon, no text, no border. Night sky: deep navy blue at the top grading to a dull blue-grey glow near the horizon, small scattered stars in the upper part, a few dark flat cloud bands."
+  },
+  {
+   "name": "sky_clear_c",
+   "seed": 931,
+   "w": 1920,
+   "h": 960,
+   "prompt": "Wide panoramic painted sky only, full bleed edge to edge with no border and no frame, the bottom edge of the image is the horizon with nothing below it, no ground, no hills, no trees, no buildings, no birds, no visible sun disc, no moon, no text. Clear day sky: deep cerulean blue at the top grading to a pale warm cream haze at the horizon, a few long flat stylised cloud bands lying perfectly horizontal, parallel to the horizon."
+  },
+  {
+   "name": "sky_dusk_c",
+   "seed": 932,
+   "w": 1920,
+   "h": 960,
+   "prompt": "Wide panoramic painted sky only, full bleed edge to edge with no border and no frame, the bottom edge of the image is the horizon with nothing below it, no ground, no hills, no trees, no buildings, no birds, no visible sun disc, no moon, no text. Dusk sky: deep violet-blue at the top grading through rose and orange to a glowing golden horizon, long flat cloud streaks of lilac and salmon lying perfectly horizontal, parallel to the horizon."
+  }
+ ]
+}

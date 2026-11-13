@@ -1,0 +1,291 @@
+{
+ "_doc": "Batch 2 vegetation: output -> raw candidate (art/jobs/veg2.json) + cutout options. Run: python3 art/post2.py cut art/jobs/veg2_picks.json",
+ "public/assets/tex/savanna/acacia_billboard.png": {
+  "src": "sv_acacia1_b",
+  "raw": "art/raw/b2/veg",
+  "height": 768,
+  "bottom": true,
+  "sat": 0.85,
+  "keep_largest": true
+ },
+ "public/assets/tex/savanna/acacia_billboard_2.png": {
+  "src": "sv_acacia2_a",
+  "raw": "art/raw/b2/veg",
+  "height": 768,
+  "bottom": true,
+  "sat": 0.85,
+  "keep_largest": true
+ },
+ "public/assets/tex/savanna/baobab_billboard.png": {
+  "src": "sv_baobab_a",
+  "raw": "art/raw/b2/veg",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.85,
+  "keep_largest": true
+ },
+ "public/assets/tex/savanna/dry_bush.png": {
+  "src": "sv_dry_bush_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/savanna/dry_bush_2.png": {
+  "src": "sv_dry_bush_c",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/savanna/grass_tuft.png": {
+  "src": "sv_grass_tuft_c",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/savanna/grass_tuft_2.png": {
+  "src": "sv_grass_tuft_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/savanna/termite_mound.png": {
+  "src": "sv_termite_mound_b",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/savanna/rock_pile.png": {
+  "src": "sv_rock_pile_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/snow/snow_pine_billboard.png": {
+  "src": "sn_pine_tall_a",
+  "raw": "art/raw/b2/veg",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/snow/snow_pine_billboard_2.png": {
+  "src": "sn_pine_mid_a",
+  "raw": "art/raw/b2/veg",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/snow/snow_pine_billboard_3.png": {
+  "src": "sn_pine_small_b",
+  "raw": "art/raw/b2/veg",
+  "height": 768,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/snow/bare_tree_billboard.png": {
+  "src": "sn_bare_tree_a",
+  "raw": "art/raw/b2/veg",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/snow/bare_tree_billboard_2.png": {
+  "src": "sn_bare_birch_a",
+  "raw": "art/raw/b2/veg",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/snow/snow_bush.png": {
+  "src": "sn_snow_bush_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/snow/snow_bush_2.png": {
+  "src": "sn_snow_bush_c",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/snow/snow_pine_branch.png": {
+  "src": "sn_pine_branch_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": false,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/coast/cypress_billboard.png": {
+  "src": "co_cypress_a",
+  "raw": "art/raw/b2/veg",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.85,
+  "keep_largest": true
+ },
+ "public/assets/tex/coast/cypress_billboard_2.png": {
+  "src": "co_cypress_c",
+  "raw": "art/raw/b2/veg",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.85,
+  "keep_largest": true
+ },
+ "public/assets/tex/coast/olive_billboard.png": {
+  "src": "co_olive_a",
+  "raw": "art/raw/b2/veg",
+  "height": 768,
+  "bottom": true,
+  "sat": 0.85,
+  "keep_largest": true
+ },
+ "public/assets/tex/coast/olive_billboard_2.png": {
+  "src": "co_olive_b",
+  "raw": "art/raw/b2/veg",
+  "height": 768,
+  "bottom": true,
+  "sat": 0.85,
+  "keep_largest": true
+ },
+ "public/assets/tex/coast/pine_umbrella_billboard.png": {
+  "src": "co_umbrella_pine_b",
+  "raw": "art/raw/b2/veg",
+  "height": 1024,
+  "bottom": true,
+  "sat": 0.85,
+  "keep_largest": true
+ },
+ "public/assets/tex/coast/agave.png": {
+  "src": "co_agave_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/coast/bush.png": {
+  "src": "co_bush_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/coast/bush_2.png": {
+  "src": "co_bush_c",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/coast/flower_bush.png": {
+  "src": "co_flower_bush_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/nordic/fern.png": {
+  "src": "no_fern_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/nordic/fern_2.png": {
+  "src": "no_bracken_b",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/nordic/grass_tuft.png": {
+  "src": "no_grass_tuft_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/nordic/grass_tuft_2.png": {
+  "src": "no_grass_tuft_c",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/nordic/wildflowers.png": {
+  "src": "no_lupins_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/nordic/wildflowers_2.png": {
+  "src": "no_wildflowers_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/nordic/reed.png": {
+  "src": "no_reed_a",
+  "raw": "art/raw/b2/veg",
+  "height": 768,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/nordic/stump.png": {
+  "src": "no_stump_a",
+  "raw": "art/raw/b2/veg",
+  "width": 512,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/nordic/log_pile.png": {
+  "src": "no_log_pile_a",
+  "raw": "art/raw/b2/veg",
+  "width": 768,
+  "bottom": true,
+  "sat": 0.9,
+  "keep_largest": true
+ },
+ "public/assets/tex/nordic/red_cabin.png": {
+  "src": "no_red_cabin_a",
+  "raw": "art/raw/b2/veg",
+  "width": 1024,
+  "bottom": true,
+  "sat": 0.95,
+  "keep_largest": true
+ }
+}

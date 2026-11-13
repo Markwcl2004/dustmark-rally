@@ -1,0 +1,110 @@
+{
+ "style": "Vintage 1970s rally racing poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, graphic stylized shapes, matte paper texture, not photorealistic, no glossy plastic look.",
+ "suffix": "",
+ "jobs": [
+  {
+   "name": "pine_bark_a",
+   "seed": 501,
+   "tex": true,
+   "prompt": "Close-up gouache painting of pine tree bark filling the entire canvas edge to edge, viewed straight on, flat even soft light, thick reddish-brown and grey bark plates separated by dark vertical furrows, evenly spread detail, no frame, no text."
+  },
+  {
+   "name": "pine_bark_b",
+   "seed": 502,
+   "tex": true,
+   "prompt": "Close-up gouache painting of pine tree bark filling the entire canvas edge to edge, viewed straight on, flat even soft light, thick reddish-brown and grey bark plates separated by dark vertical furrows, evenly spread detail, no frame, no text."
+  },
+  {
+   "name": "birch_bark_a",
+   "seed": 511,
+   "tex": true,
+   "prompt": "Close-up gouache painting of white silver birch bark filling the entire canvas edge to edge, viewed straight on, flat even soft light, creamy white bark with many short horizontal dark grey lenticel marks and a few small black patches, evenly spread detail, no frame, no text."
+  },
+  {
+   "name": "birch_bark_b",
+   "seed": 512,
+   "tex": true,
+   "prompt": "Close-up gouache painting of white silver birch bark filling the entire canvas edge to edge, viewed straight on, flat even soft light, creamy white bark with many short horizontal dark grey lenticel marks and a few small black patches, evenly spread detail, no frame, no text."
+  },
+  {
+   "name": "pine_branch_a",
+   "seed": 521,
+   "cut": true,
+   "prompt": "A single spruce tree branch with dense dark green needles and small side twigs, flat lay seen from above, the branch spans the frame diagonally from bottom left to top right. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "pine_branch_b",
+   "seed": 522,
+   "cut": true,
+   "prompt": "A single pine tree branch with dense dark green needles fanning out, flat lay seen from above, the branch fills most of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "birch_leaves_a",
+   "seed": 531,
+   "cut": true,
+   "prompt": "A small leafy birch twig with a dense cluster of about twenty small yellow-green and green triangular leaves, flat lay seen from above, filling most of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "birch_leaves_b",
+   "seed": 532,
+   "cut": true,
+   "prompt": "A dense cluster of small birch leaves on thin twigs, bright yellow-green and olive leaves, flat lay seen from above, filling most of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "bush_a",
+   "seed": 541,
+   "cut": true,
+   "prompt": "A single round low northern forest shrub, juniper and blueberry style bush, dense olive and dark green foliage, side view, whole bush visible, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "bush_b",
+   "seed": 542,
+   "cut": true,
+   "prompt": "A single rounded leafy green bush, dense muted green and olive foliage with darker shaded underside, side view, whole bush visible, sitting at the bottom of the frame. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "pine_billboard_a",
+   "seed": 551,
+   "cut": true,
+   "w": 768,
+   "h": 1344,
+   "prompt": "One whole tall northern spruce tree seen from the side, the complete tree from the bottom of the trunk to the tip visible, narrow conical silhouette with layered dark green branches, short reddish trunk at the base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "pine_billboard_b",
+   "seed": 552,
+   "cut": true,
+   "w": 768,
+   "h": 1344,
+   "prompt": "One whole tall scots pine tree seen from the side, complete tree visible from the base of the trunk to the top, tall straight orange-brown trunk with a crown of dark green needle clumps in the upper half, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "birch_billboard_a",
+   "seed": 561,
+   "cut": true,
+   "w": 768,
+   "h": 1344,
+   "prompt": "One whole tall silver birch tree seen from the side, complete tree visible from the base to the top, slender white trunk with black marks, airy crown of small yellow-green leaves, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "birch_billboard_b",
+   "seed": 562,
+   "cut": true,
+   "w": 768,
+   "h": 1344,
+   "prompt": "One whole silver birch tree seen from the side, complete tree visible from the base to the top, white trunk with black patches, oval crown of fresh green leaves, trunk base touching the bottom edge of the frame, centered. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "birch_bark_c",
+   "seed": 515,
+   "tex": true,
+   "prompt": "Extreme close-up gouache painting of the surface of silver birch bark, the bark surface fills the entire canvas from edge to edge with no trunk outline, no background and no sky visible, viewed straight on, flat even soft light, creamy off-white bark with many small short horizontal grey-brown lenticel dashes, a few small dark grey patches and faint peeling curls, evenly spread small details, muted colors, no frame, no text."
+  },
+  {
+   "name": "birch_bark_d",
+   "seed": 516,
+   "tex": true,
+   "prompt": "Extreme close-up gouache painting of the surface of silver birch bark, the bark surface fills the entire canvas from edge to edge with no trunk outline, no background and no sky visible, viewed straight on, flat even soft light, creamy off-white bark with many small short horizontal grey-brown lenticel dashes, a few small dark grey patches and faint peeling curls, evenly spread small details, muted colors, no frame, no text."
+  }
+ ]
+}

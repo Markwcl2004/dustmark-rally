@@ -1,0 +1,6 @@
+[
+ {"name": "env_coast_nocar", "image": "art/raw/b2/ui/env_coastb.png", "seed": 9001, "prompt": "Remove the rally car from the road completely and paint the empty road and stone wall where it was, matching the surrounding colours. Keep everything else exactly the same, same flat poster painting style, no text."},
+ {"name": "env_nordic_nocar", "image": "art/raw/b2/ui/env_nordica.png", "seed": 9002, "prompt": "Remove the rally car from the road completely and paint the empty gravel road where it was, matching the surrounding colours. Keep everything else exactly the same, same flat poster painting style, no text."},
+ {"name": "menu_1_nocar", "image": "art/raw/b2/ui/menu_1a.png", "seed": 9003, "prompt": "Remove the white rally car completely and paint the empty grey tarmac and dark background where it was. Keep the tent, tyres and red toolboxes exactly the same, same flat poster painting style, no text."},
+ {"name": "menu_2_nocar", "image": "art/raw/b2/ui/menu_2a.png", "seed": 9004, "prompt": "Remove the white rally car completely and paint the dark green grass and forest where it was. Keep the tents, campfire and chairs exactly the same, same flat poster painting style, no text."}
+]

@@ -1,0 +1,314 @@
+{
+ "_doc": "Batch 2 UI art: output -> raw candidate (art/jobs/ui2.json, ui2_edit.json for the car-removed versions) + options (see art/post2.py). Run: python3 art/post2.py ui art/jobs/ui2_picks.json",
+ "public/assets/ui/card_bg_1.jpg": {
+  "src": "card_1b",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1536,
+   1024
+  ],
+  "texture": true,
+  "seed": 1
+ },
+ "public/assets/ui/card_bg_2.jpg": {
+  "src": "card_2a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1536,
+   1024
+  ],
+  "texture": true,
+  "seed": 2
+ },
+ "public/assets/ui/card_bg_3.jpg": {
+  "src": "card_3b",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1536,
+   1024
+  ],
+  "texture": true,
+  "seed": 3
+ },
+ "public/assets/ui/card_bg_4.jpg": {
+  "src": "card_4a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1536,
+   1024
+  ],
+  "texture": true,
+  "seed": 4
+ },
+ "public/assets/ui/card_bg_5.jpg": {
+  "src": "card_5a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1536,
+   1024
+  ],
+  "texture": true,
+  "seed": 5
+ },
+ "public/assets/ui/card_bg_6.jpg": {
+  "src": "card_6b",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1536,
+   1024
+  ],
+  "texture": true,
+  "seed": 6
+ },
+ "public/assets/ui/menu_bg_1.jpg": {
+  "src": "menu_1_nocar",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1920,
+   1200
+  ],
+  "dim": 0.6,
+  "contrast": 0.7,
+  "sat": 0.85
+ },
+ "public/assets/ui/menu_bg_2.jpg": {
+  "src": "menu_2_nocar",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1920,
+   1200
+  ],
+  "dim": 0.65,
+  "contrast": 0.75,
+  "sat": 0.85
+ },
+ "public/assets/ui/menu_bg_3.jpg": {
+  "src": "menu_3a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1920,
+   1200
+  ],
+  "dim": 0.55,
+  "contrast": 0.7,
+  "sat": 0.85
+ },
+ "public/assets/ui/service_area.jpg": {
+  "src": "service_areaa",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1920,
+   1200
+  ],
+  "dim": 0.92
+ },
+ "public/assets/ui/podium_bg.jpg": {
+  "src": "podium_bga",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   1920,
+   1200
+  ],
+  "dim": 0.92
+ },
+ "public/assets/ui/env_coast_wide.jpg": {
+  "src": "env_coast_nocar",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   2240,
+   960
+  ]
+ },
+ "public/assets/ui/env_nordic_wide.jpg": {
+  "src": "env_nordic_nocar",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   2240,
+   960
+  ]
+ },
+ "public/assets/ui/env_savanna_wide.jpg": {
+  "src": "env_savannab",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   2240,
+   960
+  ]
+ },
+ "public/assets/ui/env_snow_wide.jpg": {
+  "src": "env_snowb",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   2240,
+   960
+  ]
+ },
+ "public/assets/ui/driver_01.png": {
+  "src": "driver_01a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_02.png": {
+  "src": "driver_02a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_03.png": {
+  "src": "driver_03a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_04.png": {
+  "src": "driver_04a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_05.png": {
+  "src": "driver_05a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_06.png": {
+  "src": "driver_06a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_07.png": {
+  "src": "driver_07a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_08.png": {
+  "src": "driver_08a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_09.png": {
+  "src": "driver_09a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_10.png": {
+  "src": "driver_10a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_11.png": {
+  "src": "driver_11a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ },
+ "public/assets/ui/driver_12.png": {
+  "src": "driver_12a",
+  "raw": "art/raw/b2/ui",
+  "size": [
+   512,
+   512
+  ],
+  "crop": [
+   0.03,
+   0.03,
+   0.97,
+   0.97
+  ]
+ }
+}

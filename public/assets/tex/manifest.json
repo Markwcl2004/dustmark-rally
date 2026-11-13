@@ -1,0 +1,269 @@
+{
+ "_doc": "Textures keep their own hue; mean luminance is normalised per material (seamless.py / ground_picks.json), so they work as albedo. `tint` is an optional HUE correction toward the concept palette colour, computed in LINEAR space as linear(target) / linear(texture mean) per channel, then divided by its own luminance (so it does not change brightness) and clamped to [0.6, 1.6]. Only materials whose colour the concept art actually shows get one. Use: albedo_linear = texture_linear * tint * groundTint(environment light, palettes.json) * weather factor.",
+ "textures": {
+  "nordic/gravel_road_1": {
+   "file": "tex/nordic/gravel_road_1.jpg",
+   "metresPerTile": 3.0,
+   "meanColor": "#a49177",
+   "sizeKB": 301,
+   "tintTo": "road",
+   "tint": [
+    1.031,
+    0.991,
+    1.001
+   ]
+  },
+  "nordic/gravel_road_2": {
+   "file": "tex/nordic/gravel_road_2.jpg",
+   "metresPerTile": 3.0,
+   "meanColor": "#a8916f",
+   "sizeKB": 299,
+   "tintTo": "road",
+   "tint": [
+    0.977,
+    0.992,
+    1.149
+   ]
+  },
+  "nordic/gravel_shoulder": {
+   "file": "tex/nordic/gravel_shoulder.jpg",
+   "metresPerTile": 3.0,
+   "meanColor": "#8e775c",
+   "sizeKB": 204,
+   "tintTo": "shoulder",
+   "tint": [
+    0.881,
+    1.02,
+    1.152
+   ]
+  },
+  "nordic/forest_floor": {
+   "file": "tex/nordic/forest_floor.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#6a5c32",
+   "sizeKB": 303
+  },
+  "nordic/grass": {
+   "file": "tex/nordic/grass.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#8b8546",
+   "sizeKB": 310,
+   "tintTo": "vegLight",
+   "tint": [
+    1.194,
+    0.953,
+    0.897
+   ]
+  },
+  "nordic/rock": {
+   "file": "tex/nordic/rock.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#80807b",
+   "sizeKB": 232,
+   "tintTo": "rock",
+   "tint": [
+    1.016,
+    1.008,
+    0.869
+   ]
+  },
+  "nordic/dirt_bank": {
+   "file": "tex/nordic/dirt_bank.jpg",
+   "metresPerTile": 3.0,
+   "meanColor": "#8e6339",
+   "sizeKB": 218
+  },
+  "nordic/pine_bark": {
+   "file": "tex/nordic/pine_bark.jpg",
+   "metresPerTile": 1.5,
+   "meanColor": "#694332",
+   "sizeKB": 212
+  },
+  "nordic/birch_bark": {
+   "file": "tex/nordic/birch_bark.jpg",
+   "metresPerTile": 1.5,
+   "meanColor": "#dcd5c4",
+   "sizeKB": 85
+  },
+  "savanna/road": {
+   "file": "tex/savanna/road.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#be3815",
+   "sizeKB": 258,
+   "tintTo": "road",
+   "tint": [
+    0.66,
+    1.079,
+    1.224
+   ]
+  },
+  "savanna/ground": {
+   "file": "tex/savanna/ground.jpg",
+   "metresPerTile": 5.0,
+   "meanColor": "#c4693e",
+   "sizeKB": 208
+  },
+  "snow/road": {
+   "file": "tex/snow/road.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#caccd3",
+   "sizeKB": 116,
+   "tintTo": "road",
+   "tint": [
+    1.019,
+    1.004,
+    0.901
+   ]
+  },
+  "snow/ground": {
+   "file": "tex/snow/ground.jpg",
+   "metresPerTile": 6.0,
+   "meanColor": "#ebecf4",
+   "sizeKB": 61,
+   "tintTo": "road",
+   "tint": [
+    1.021,
+    1.003,
+    0.91
+   ]
+  },
+  "coast/road": {
+   "file": "tex/coast/road.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#706a65",
+   "sizeKB": 302,
+   "tintTo": "road",
+   "tint": [
+    1.063,
+    0.989,
+    0.925
+   ]
+  },
+  "coast/ground": {
+   "file": "tex/coast/ground.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#b49c6f",
+   "sizeKB": 201
+  },
+  "savanna/shoulder": {
+   "file": "tex/savanna/shoulder.jpg",
+   "metresPerTile": 3.0,
+   "meanColor": "#9f3e1c",
+   "sizeKB": 193,
+   "tintTo": "shoulder",
+   "tint": [
+    0.788,
+    1.086,
+    0.776
+   ]
+  },
+  "savanna/dry_grass": {
+   "file": "tex/savanna/dry_grass.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#9b7c4a",
+   "sizeKB": 317,
+   "tintTo": "vegLight",
+   "tint": [
+    1.083,
+    1.017,
+    0.6
+   ]
+  },
+  "savanna/rock": {
+   "file": "tex/savanna/rock.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#994727",
+   "sizeKB": 206,
+   "tintTo": "rock",
+   "tint": [
+    1.114,
+    0.977,
+    0.888
+   ]
+  },
+  "savanna/riverbed": {
+   "file": "tex/savanna/riverbed.jpg",
+   "metresPerTile": 3.0,
+   "meanColor": "#866f56",
+   "sizeKB": 214
+  },
+  "snow/ice": {
+   "file": "tex/snow/ice.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#88a4b7",
+   "sizeKB": 142
+  },
+  "snow/snow_bank": {
+   "file": "tex/snow/snow_bank.jpg",
+   "metresPerTile": 3.0,
+   "meanColor": "#cacccf",
+   "sizeKB": 129
+  },
+  "snow/rock_snow": {
+   "file": "tex/snow/rock_snow.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#484c58",
+   "sizeKB": 239
+  },
+  "coast/road_worn": {
+   "file": "tex/coast/road_worn.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#6f6a65",
+   "sizeKB": 228,
+   "tintTo": "road",
+   "tint": [
+    1.082,
+    0.984,
+    0.918
+   ]
+  },
+  "coast/shoulder": {
+   "file": "tex/coast/shoulder.jpg",
+   "metresPerTile": 3.0,
+   "meanColor": "#a39274",
+   "sizeKB": 213,
+   "tintTo": "shoulder",
+   "tint": [
+    0.861,
+    1.011,
+    1.306
+   ]
+  },
+  "coast/cliff_rock": {
+   "file": "tex/coast/cliff_rock.jpg",
+   "metresPerTile": 4.0,
+   "meanColor": "#b29b7a",
+   "sizeKB": 217,
+   "tintTo": "rock",
+   "tint": [
+    1.145,
+    0.965,
+    0.924
+   ]
+  },
+  "coast/stone_wall": {
+   "file": "tex/coast/stone_wall.jpg",
+   "metresPerTile": 2.4,
+   "meanColor": "#8e7d66",
+   "sizeKB": 192
+  },
+  "coast/terracotta_roof": {
+   "file": "tex/coast/terracotta_roof.jpg",
+   "metresPerTile": 2.0,
+   "meanColor": "#bf4f20",
+   "sizeKB": 156
+  },
+  "coast/plaster_wall": {
+   "file": "tex/coast/plaster_wall.jpg",
+   "metresPerTile": 2.0,
+   "meanColor": "#d8d1c0",
+   "sizeKB": 142
+  },
+  "coast/plaster_wall_ochre": {
+   "file": "tex/coast/plaster_wall_ochre.jpg",
+   "metresPerTile": 2.0,
+   "meanColor": "#c59345",
+   "sizeKB": 137
+  }
+ }
+}

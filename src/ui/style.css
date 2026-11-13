@@ -1,0 +1,103 @@
+:root {
+  --ink: #1b1b1b;
+  --cream: #f1ece0;
+  --red: #c8362a;
+  --yellow: #e8b23a;
+  --blue: #2f6aa3;
+  --panel: rgba(20, 22, 24, 0.62);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: #859c9b; font-family: "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", sans-serif; color: var(--cream); user-select: none; }
+canvas#game { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; }
+.mono { font-family: "SF Mono", "Menlo", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+
+/* poster-ish screen treatment: vignette + grain, zero GPU cost */
+#grade { position: fixed; inset: 0; pointer-events: none; z-index: 5;
+  background: radial-gradient(ellipse at 50% 55%, rgba(0,0,0,0) 55%, rgba(30,24,16,0.38) 100%); }
+#grain { position: fixed; inset: -50%; pointer-events: none; z-index: 6; opacity: 0.11; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 1.6 -0.3'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+
+/* loading */
+#loading { position: fixed; inset: 0; z-index: 50; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px;
+  background: linear-gradient(180deg, #c7d4c9 0%, #efe5cb 55%, #b8a68a 100%); color: var(--ink); }
+#loading .logo { font-size: 72px; font-weight: 900; letter-spacing: 6px; line-height: 1; }
+#loading .logo span { display: block; font-size: 20px; letter-spacing: 14px; font-weight: 700; color: var(--red); margin-top: 10px; text-align: center; }
+#loading .bar { width: 320px; height: 6px; background: rgba(0,0,0,0.15); }
+#loading .bar i { display: block; height: 100%; width: 0; background: var(--red); transition: width .2s; }
+#loading .sub { font-size: 15px; letter-spacing: 2px; opacity: .8; }
+
+/* HUD */
+.hud { position: fixed; inset: 0; pointer-events: none; z-index: 10; text-shadow: 0 1px 2px rgba(0,0,0,.35); }
+.hud-top { position: absolute; top: 18px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.hud-stage { font-size: 13px; letter-spacing: 2px; opacity: .9; }
+.hud-timer { font-size: 40px; font-weight: 700; letter-spacing: 1px; line-height: 1; padding: 4px 14px; background: var(--panel); border-bottom: 3px solid var(--red); }
+.hud-pen { font-size: 15px; color: #ffb39e; min-height: 18px; }
+.hud-progress { position: relative; width: 420px; height: 6px; background: rgba(255,255,255,.25); }
+.hud-progress i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--cream); }
+.hud-progress b { position: absolute; top: -5px; width: 4px; height: 16px; margin-left: -2px; background: var(--red); }
+.hud-progress em { position: absolute; top: -3px; width: 2px; height: 12px; background: var(--yellow); }
+.hud-progress em.tick-hp { background: #9fd0ff; }
+
+.hud-notes { position: absolute; top: 22px; left: 22px; display: flex; flex-direction: column; gap: 8px; }
+.note { display: flex; align-items: center; gap: 12px; background: var(--panel); padding: 8px 14px 8px 8px; border-left: 4px solid var(--yellow); min-width: 210px; position: relative; }
+.note .ic { width: 52px; height: 52px; color: var(--cream); flex: none; }
+.note .tx { font-size: 24px; font-weight: 800; letter-spacing: 1px; white-space: nowrap; }
+.note.n0 .ic { width: 64px; height: 64px; }
+.note.n0 .tx { font-size: 30px; }
+.note.n0::after { content: attr(data-dist); position: absolute; right: 10px; bottom: 4px; font-size: 12px; opacity: .7; font-family: Menlo, monospace; }
+.note.n1 { opacity: .85; transform: scale(.82); transform-origin: left top; margin-bottom: -10px; }
+.note.n2 { opacity: .65; transform: scale(.7); transform-origin: left top; margin-bottom: -18px; }
+.note.jump { border-left-color: var(--red); }
+.note.calling { background: rgba(232, 178, 58, 0.92); color: var(--ink); text-shadow: none; border-left-color: var(--ink); }
+.note.calling .ic { color: var(--ink); }
+.hud-split { font-size: 18px; font-weight: 700; min-height: 22px; line-height: 22px; padding: 1px 10px; margin: 0 0 10px; letter-spacing: .5px; transition: transform .15s; transform-origin: center top; }
+.hud-split.faster { color: #9fe39a; }
+.hud-split.slower { color: #ff9c86; }
+.hud-split.flash { background: var(--panel); transform: scale(1.08); }
+.fin-card .faster { color: #2f8a3a; }
+.fin-card .slower { color: var(--red); }
+.hud-audio { position: absolute; right: 22px; top: 18px; font-size: 12px; opacity: .7; letter-spacing: 1px; }
+
+.hud-dash { position: absolute; right: 26px; bottom: 26px; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.hud-rpm { display: flex; gap: 3px; }
+.hud-rpm i { width: 10px; height: 16px; background: rgba(255,255,255,.18); transform: skewX(-14deg); }
+.hud-rpm i.on { background: var(--cream); }
+.hud-rpm i.amber.on { background: var(--yellow); }
+.hud-rpm i.red.on { background: var(--red); }
+.hud-row { display: flex; align-items: baseline; gap: 8px; }
+.hud-speed { font-size: 76px; font-weight: 700; line-height: .9; min-width: 150px; text-align: right; }
+.hud-unit { font-size: 14px; opacity: .8; letter-spacing: 1px; }
+.hud-gear { font-size: 40px; font-weight: 800; width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; background: var(--cream); color: var(--ink); text-shadow: none; margin-left: 10px; align-self: center; }
+
+.hud-count { position: absolute; top: 32%; left: 50%; transform: translate(-50%, -50%) scale(.6); font-size: 180px; font-weight: 900; opacity: 0; transition: transform .25s, opacity .25s; color: var(--cream); text-shadow: 0 6px 0 var(--red); }
+.hud-count.on { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+.hud-count.go { color: var(--yellow); }
+.hud-toast { position: absolute; top: 132px; left: 50%; transform: translateX(-50%); background: var(--red); color: #fff; padding: 6px 16px; font-size: 18px; font-weight: 700; opacity: 0; transition: opacity .2s; }
+.hud-toast.on { opacity: 1; }
+.hud-keys { position: absolute; left: 22px; bottom: 18px; font-size: 12px; opacity: .65; letter-spacing: 1px; }
+
+.hud-finish { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; pointer-events: auto; background: rgba(20, 18, 14, 0.35); }
+.fin-card { background: var(--cream); color: var(--ink); padding: 28px 40px 30px; min-width: 420px; box-shadow: 10px 10px 0 var(--red); text-shadow: none; }
+.fin-head { font-size: 14px; letter-spacing: 6px; color: var(--red); font-weight: 800; }
+.fin-stage { font-size: 26px; font-weight: 900; margin-top: 4px; }
+.fin-total { font-size: 64px; font-weight: 700; margin: 10px 0 12px; }
+.fin-card table { width: 100%; border-collapse: collapse; font-size: 16px; }
+.fin-card td { padding: 5px 0; border-top: 1px solid rgba(0,0,0,.12); }
+.fin-card td:last-child { text-align: right; }
+.fin-again { margin-top: 20px; width: 100%; padding: 12px; font-size: 20px; font-weight: 800; letter-spacing: 3px; background: var(--ink); color: var(--cream); border: 0; cursor: pointer; font-family: inherit; }
+.fin-again:hover { background: var(--red); }
+.fin-again small { font-size: 12px; opacity: .6; letter-spacing: 1px; margin-left: 8px; }
+
+#pause { position: fixed; inset: 0; z-index: 30; display: none; align-items: center; justify-content: center; background: rgba(20,18,14,.5); }
+#pause .card { background: var(--cream); color: var(--ink); padding: 26px 34px; min-width: 360px; box-shadow: 10px 10px 0 var(--blue); }
+#pause h2 { margin: 0 0 14px; font-size: 30px; font-weight: 900; letter-spacing: 4px; }
+#pause button { display: block; width: 100%; margin-top: 10px; padding: 10px; font-size: 17px; font-weight: 700; border: 0; background: var(--ink); color: var(--cream); cursor: pointer; font-family: inherit; }
+#pause button:hover { background: var(--red); }
+#pause label { display: flex; justify-content: space-between; align-items: center; margin: 8px 0; font-size: 15px; }
+#pause .keys { font-size: 13px; line-height: 1.7; margin-top: 12px; opacity: .8; }
+
+#perf { position: fixed; top: 150px; right: 8px; z-index: 40; background: rgba(10,14,18,.78); color: #cfe; font: 11px/1.35 Menlo, monospace; padding: 6px 8px; display: none; pointer-events: none; white-space: pre; }
+
+/* turntable */
+.tt-label { position: fixed; left: 24px; bottom: 20px; color: var(--ink); font-size: 14px; letter-spacing: 1px; z-index: 10; }
+.tt-label b { font-size: 26px; display: block; letter-spacing: 2px; }

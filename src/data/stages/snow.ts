@@ -1,0 +1,98 @@
+// 雪岭 · three stages. Narrow compacted-snow roads between ploughed snow walls, ice patches, snow-laden spruce.
+// Zones (envs.ts SNOW_ZONES): forest 雪林, pass 垭口, walls 雪墙道, lake 冰湖, camp 林场.
+import type { StageDef } from '../../sim/stage/script';
+
+/** 雪狐垭口 — narrow pass road between high snow walls, a rhythm of linked medium corners over the col */
+export const SNOW_1: StageDef = {
+  id: 'snow-1', name: '雪狐垭口', env: 'snow', seed: 8113, halfWidth: 2.8,
+  segments: [
+    { zone: 'camp', kind: 'straight', len: 220 },
+    { kind: 'turn', dir: 'R', grade: 5 },
+    { zone: 'forest', kind: 'straight', len: [150, 180], features: [{ kind: 'crest', at: 0.5, height: 1.6 }] },
+    { kind: 's', dir: 'L', grades: [4, 4, 3], gap: [12, 22], angle: [40, 60] },
+    { kind: 'straight', len: [120, 150] },
+    { zone: 'walls', kind: 'turn', dir: 'R', grade: 3, mods: ['tightens'] },
+    { kind: 'straight', len: [90, 110] },
+    { kind: 's', dir: 'L', grades: [3, 4, 3, 4], gap: [10, 18], angle: [45, 65] },
+    { kind: 'straight', len: [300, 330], features: [{ kind: 'crest', at: 0.3, height: 1.8 }] },
+    { zone: 'pass', kind: 'turn', dir: 'L', grade: 'hairpin', angle: [158, 164] },
+    { kind: 'straight', len: [120, 150] },
+    { kind: 'turn', dir: 'R', grade: 'hairpin', angle: [160, 166] },
+    { kind: 'straight', len: [180, 210], features: [{ kind: 'crest', at: 0.6, height: 2.0 }] },
+    { kind: 'turn', dir: 'R', grade: 4, mods: ['long'] },
+    { zone: 'walls', kind: 'straight', len: [130, 160] },
+    { kind: 's', dir: 'L', grades: [3, 3], gap: [12, 18], angle: [50, 70] },
+    { kind: 'straight', len: [110, 140] },
+    { zone: 'forest', kind: 'turn', dir: 'R', grade: 2, mods: ['blind'] },
+    { kind: 'straight', len: [180, 210], features: [{ kind: 'dip', at: 0.5, height: 1.3 }] },
+    { kind: 'turn', dir: 'L', grade: 4 },
+    { kind: 'straight', len: [140, 170] },
+    { kind: 's', dir: 'R', grades: [4, 3, 4], gap: [12, 20], angle: [40, 55] },
+    { kind: 'straight', len: [160, 190] },
+    { zone: 'camp', kind: 'turn', dir: 'R', grade: 5 },
+    { kind: 'straight', len: 320 },
+  ],
+};
+
+/** 冰湖坳 — around a frozen lake in a hollow: ice patches on the shore road, fast sweepers, a tight forest exit */
+export const SNOW_2: StageDef = {
+  id: 'snow-2', name: '冰湖坳', env: 'snow', seed: 8237, halfWidth: 3.0,
+  segments: [
+    { zone: 'camp', kind: 'straight', len: 230 },
+    { kind: 'turn', dir: 'L', grade: 4 },
+    { zone: 'forest', kind: 'straight', len: [300, 340], features: [{ kind: 'crest', at: 0.35, height: 1.8 }, { kind: 'crest', at: 0.8, height: 1.6 }] },
+    { kind: 'turn', dir: 'R', grade: 3 },
+    { kind: 'straight', len: [160, 190] },
+    { zone: 'lake', kind: 'straight', len: [240, 270], lake: 'R' },
+    { kind: 'turn', dir: 'R', grade: 6, lake: 'R' },
+    { kind: 'straight', len: [160, 190], lake: 'R', features: [{ kind: 'rollers', at: 0.5, height: 0.5, length: 22, count: 3 }] },
+    { kind: 'turn', dir: 'R', grade: 5, lake: 'R' },
+    { kind: 'straight', len: [140, 170], lake: 'R' },
+    { kind: 'turn', dir: 'L', grade: 3, mods: ['tightens'] },
+    { zone: 'forest', kind: 'straight', len: [100, 130] },
+    { kind: 's', dir: 'R', grades: [4, 3, 4], gap: [12, 20], angle: [40, 60] },
+    { kind: 'straight', len: [260, 300], features: [{ kind: 'jump', at: 0.55, height: 1.2 }] },
+    { kind: 'turn', dir: 'L', grade: 2 },
+    { zone: 'walls', kind: 'straight', len: [220, 260] },
+    { kind: 'turn', dir: 'R', grade: 'square' },
+    { kind: 'straight', len: [120, 150], features: [{ kind: 'crest', at: 0.5, height: 1.6 }] },
+    { kind: 'turn', dir: 'L', grade: 4, mods: ['opens'] },
+    { zone: 'lake', kind: 'straight', len: [220, 260] },
+    { kind: 'turn', dir: 'L', grade: 5 },
+    { kind: 'straight', len: [150, 180] },
+    { zone: 'forest', kind: 'turn', dir: 'R', grade: 3 },
+    { kind: 'straight', len: [200, 230] },
+    { zone: 'camp', kind: 'turn', dir: 'L', grade: 5 },
+    { kind: 'straight', len: 320 },
+  ],
+};
+
+/** 松涛林道 — the fast one: long snow-forest straights over crests, a jump, high walls on the run-in */
+export const SNOW_3: StageDef = {
+  id: 'snow-3', name: '松涛林道', env: 'snow', seed: 8351, halfWidth: 3.1,
+  segments: [
+    { zone: 'camp', kind: 'straight', len: 240 },
+    { kind: 'turn', dir: 'R', grade: 5 },
+    { zone: 'forest', kind: 'straight', len: [480, 520], bend: 6, features: [{ kind: 'crest', at: 0.3, height: 2.0 }, { kind: 'crest', at: 0.75, height: 2.2 }] },
+    { kind: 'turn', dir: 'L', grade: 4 },
+    { kind: 'straight', len: [200, 240] },
+    { kind: 'turn', dir: 'R', grade: 3, mods: ['tightens'] },
+    { zone: 'walls', kind: 'straight', len: [260, 300], features: [{ kind: 'jump', at: 0.5, height: 1.4 }] },
+    { kind: 'turn', dir: 'L', grade: 5, mods: ['long'] },
+    { kind: 'straight', len: [200, 230] },
+    { kind: 's', dir: 'R', grades: [4, 4], gap: [14, 22], angle: [35, 50] },
+    { zone: 'forest', kind: 'straight', len: [420, 460], features: [{ kind: 'crest', at: 0.5, height: 2.2 }] },
+    { kind: 'turn', dir: 'R', grade: 2 },
+    { kind: 'straight', len: [130, 160] },
+    { kind: 'turn', dir: 'L', grade: 4, mods: ['cut'] },
+    { zone: 'pass', kind: 'straight', len: [260, 300], features: [{ kind: 'rollers', at: 0.5, height: 0.6, length: 24, count: 3 }] },
+    { kind: 'turn', dir: 'L', grade: 3 },
+    { kind: 'straight', len: [200, 240], features: [{ kind: 'crest', at: 0.6, height: 1.8 }] },
+    { kind: 'turn', dir: 'R', grade: 5 },
+    { zone: 'forest', kind: 'straight', len: [380, 420], features: [{ kind: 'crest', at: 0.5, height: 1.8 }] },
+    { kind: 'turn', dir: 'R', grade: 1 },
+    { kind: 'straight', len: [140, 170] },
+    { zone: 'camp', kind: 'turn', dir: 'L', grade: 5 },
+    { kind: 'straight', len: 320 },
+  ],
+};

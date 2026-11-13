@@ -1,0 +1,51 @@
+{
+ "public/assets/ui/title_key.jpg": {
+  "src": "title_key_a",
+  "size": [
+   1920,
+   1200
+  ]
+ },
+ "public/assets/ui/poster_nordic.jpg": {
+  "src": "poster_nordic",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "public/assets/ui/poster_savanna.jpg": {
+  "src": "poster_savanna",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "public/assets/ui/poster_snow.jpg": {
+  "src": "poster_snow",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "public/assets/ui/poster_coast.jpg": {
+  "src": "poster_coast",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "public/assets/ui/loading_1.jpg": {
+  "src": "loading_a",
+  "size": [
+   1920,
+   1080
+  ]
+ },
+ "public/assets/ui/loading_2.jpg": {
+  "src": "loading_b",
+  "size": [
+   1920,
+   1080
+  ]
+ }
+}

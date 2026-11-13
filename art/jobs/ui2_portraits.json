@@ -1,0 +1,138 @@
+{
+ "style": "Vintage 1970s rally racing poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, graphic stylized shapes, matte paper texture, not photorealistic, no glossy plastic look.",
+ "suffix": "",
+ "jobs": [
+  {
+   "name": "driver_01a",
+   "seed": 8500,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a man, an open-face white helmet with goggles pushed up, wearing a red and white racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale cream background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_02a",
+   "seed": 8503,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a woman, a light blue open-face helmet, wearing a navy and orange racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale peach background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_03a",
+   "seed": 8506,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a man with a moustache, a cap worn backwards and a headset, wearing a green and yellow racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale grey-blue background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_04a",
+   "seed": 8509,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a woman with a short ponytail, a cap, wearing a white and teal racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat mustard yellow background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_05a",
+   "seed": 8512,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a man, a full-face yellow helmet with the visor up, wearing a black and yellow racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale teal background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_06a",
+   "seed": 8515,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a woman, an open-face red helmet with goggles, wearing a white and red racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale sky blue background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_07a",
+   "seed": 8518,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a man with a beard, a knitted beanie, wearing a blue and white racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale orange background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_08a",
+   "seed": 8521,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a woman, a white open-face helmet with a blue stripe, wearing a cobalt blue racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale sand background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_09a",
+   "seed": 8524,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, an older man with grey sideburns, a flat cap, wearing a maroon and cream racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale sage green background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_10a",
+   "seed": 8527,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a woman with curly hair, a cap and sunglasses, wearing a orange and white racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale lilac background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_11a",
+   "seed": 8530,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a young man, an orange open-face helmet, wearing a olive green and orange racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale cream background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "driver_12a",
+   "seed": 8533,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "Poster-style half-length portrait of a fictional rally driver, a woman with a bob haircut, a silver open-face helmet with goggles, wearing a purple and white racing overall, shoulders and chest visible, the face painted as a few simple flat color shapes with no detailed features, no realistic face, plain flat pale mint background, centered. No logos, no badges, no text, no letters, no numbers, no border."
+  },
+  {
+   "name": "trophy_a",
+   "seed": 8600,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single fictional rally trophy: a classic two-handled gold cup on a tall stem and a dark wooden stepped base, simple bold shapes with flat highlights, front view, centered. No text, no letters, no numbers. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "trophy_b",
+   "seed": 8601,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single fictional rally trophy: a classic two-handled gold cup on a tall stem and a dark wooden stepped base, simple bold shapes with flat highlights, front view, centered. No text, no letters, no numbers. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "trophy_c",
+   "seed": 8602,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single fictional rally trophy: a classic two-handled gold cup on a tall stem and a dark wooden stepped base, simple bold shapes with flat highlights, front view, centered. No text, no letters, no numbers. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "medal_a",
+   "seed": 8610,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single fictional gold medal: a round gold disc embossed with a simple laurel wreath and a stylised mountain road, hanging from a short blue and white striped ribbon, front view, centered. No text, no letters, no numbers. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "medal_b",
+   "seed": 8611,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single fictional gold medal: a round gold disc embossed with a simple laurel wreath and a stylised mountain road, hanging from a short blue and white striped ribbon, front view, centered. No text, no letters, no numbers. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  },
+  {
+   "name": "medal_c",
+   "seed": 8612,
+   "cut": true,
+   "w": 1024,
+   "h": 1024,
+   "prompt": "A single fictional gold medal: a round gold disc embossed with a simple laurel wreath and a stylised mountain road, hanging from a short blue and white striped ribbon, front view, centered. No text, no letters, no numbers. Isolated on a plain flat uniform light grey background, nothing else in the image, no ground shadow, no text, no border."
+  }
+ ]
+}

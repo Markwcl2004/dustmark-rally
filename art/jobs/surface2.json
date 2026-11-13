@@ -1,0 +1,60 @@
+{
+ "style": "Vintage 1970s rally racing poster illustration, flat gouache painting with silkscreen print grain, bold simplified color blocks, limited palette, graphic stylized shapes, matte paper texture, not photorealistic, no glossy plastic look.",
+ "suffix": "Painted surface fills the entire canvas from edge to edge, viewed straight on, flat even soft light, stylised illustration with simplified flat painted shapes and fine brush grain, not photographic. Nothing else, no frame, no text.",
+ "defaults": {
+  "w": 1024,
+  "h": 1024
+ },
+ "jobs": [
+  {
+   "name": "coast_cliff_rock_a",
+   "seed": 6300,
+   "prompt": "Close-up of a pale limestone cliff face: many small angular facets and short horizontal ledges in flat tones of cream, warm beige, pale ochre and light grey, fine dark hairline cracks, small pits. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No sky, no edges, no plants."
+  },
+  {
+   "name": "coast_cliff_rock_b",
+   "seed": 6307,
+   "prompt": "Close-up of a pale limestone cliff face: many small angular facets and short horizontal ledges in flat tones of cream, warm beige, pale ochre and light grey, fine dark hairline cracks, small pits. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No sky, no edges, no plants."
+  },
+  {
+   "name": "coast_cliff_rock_c",
+   "seed": 6314,
+   "prompt": "Close-up of a pale limestone cliff face: many small angular facets and short horizontal ledges in flat tones of cream, warm beige, pale ochre and light grey, fine dark hairline cracks, small pits. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No sky, no edges, no plants."
+  },
+  {
+   "name": "coast_stone_wall_a",
+   "seed": 6330,
+   "prompt": "Close-up of a dry stone wall: many irregular rounded and flat stones of similar small size stacked in rough horizontal courses without mortar, cream, beige, warm ochre and pale grey stones with dark brown gaps between, about twelve courses of stones from top to bottom. The wall fills the whole canvas, no top edge, no ground, no sky, no plants."
+  },
+  {
+   "name": "coast_stone_wall_b",
+   "seed": 6337,
+   "prompt": "Close-up of a dry stone wall: many irregular rounded and flat stones of similar small size stacked in rough horizontal courses without mortar, cream, beige, warm ochre and pale grey stones with dark brown gaps between, about twelve courses of stones from top to bottom. The wall fills the whole canvas, no top edge, no ground, no sky, no plants."
+  },
+  {
+   "name": "coast_stone_wall_c",
+   "seed": 6344,
+   "prompt": "Close-up of a dry stone wall: many irregular rounded and flat stones of similar small size stacked in rough horizontal courses without mortar, cream, beige, warm ochre and pale grey stones with dark brown gaps between, about twelve courses of stones from top to bottom. The wall fills the whole canvas, no top edge, no ground, no sky, no plants."
+  },
+  {
+   "name": "coast_plaster_wall_a",
+   "seed": 6360,
+   "prompt": "Close-up of an old lime-washed plaster wall: off-white and cream plaster with faint pale ochre and grey weathering stains in small soft patches, small chips showing a little warm render, fine brush texture. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No windows, no edges, no cracks across the wall."
+  },
+  {
+   "name": "coast_plaster_wall_b",
+   "seed": 6367,
+   "prompt": "Close-up of an old lime-washed plaster wall: off-white and cream plaster with faint pale ochre and grey weathering stains in small soft patches, small chips showing a little warm render, fine brush texture. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No windows, no edges, no cracks across the wall."
+  },
+  {
+   "name": "coast_plaster_ochre_a",
+   "seed": 6380,
+   "prompt": "Close-up of an old ochre plaster wall: warm yellow-ochre lime plaster with faint lighter and darker weathering in small soft patches, small chips showing pale render, fine brush texture. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No windows, no edges, no cracks across the wall."
+  },
+  {
+   "name": "coast_plaster_ochre_b",
+   "seed": 6387,
+   "prompt": "Close-up of an old ochre plaster wall: warm yellow-ochre lime plaster with faint lighter and darker weathering in small soft patches, small chips showing pale render, fine brush texture. All shapes are small and similar in size, evenly spread, no large shapes, no single dominant feature. No windows, no edges, no cracks across the wall."
+  }
+ ]
+}
